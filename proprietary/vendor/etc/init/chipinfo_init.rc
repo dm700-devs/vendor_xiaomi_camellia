@@ -1,0 +1,11 @@
+on early-init
+    exec_background -- /vendor/bin/chipinfo
+
+on property:ro.vendor.soc.model=*
+    setprop ro.soc.model ${ro.vendor.soc.model}
+
+on property:ro.vendor.soc.manufacturer=*
+    setprop ro.soc.manufacturer ${ro.vendor.soc.manufacturer}
+
+on post-fs-data
+    wait_for_prop ro.vendor.soc.model_ready 1
