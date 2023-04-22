@@ -5,8 +5,8 @@
 	</ParamTree>
 	<ParamUnitPool>
 		<ParamUnit param_id="0">
-			<Param name="training" value="hhhh"/>
-			<Param name="testing" value="hh"/>
+			<Param name="training" value="hhaa"/>
+			<Param name="testing" value="aa"/>
 		</ParamUnit>
 	</ParamUnitPool>
 </AudioParam>

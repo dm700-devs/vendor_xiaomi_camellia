@@ -3,6 +3,8 @@
 -->
 <MediaCodecs>
     <Decoders>
+        <Video name="color.converter"
+               alwaysColorConvertChecker="true" />
         <Video name="c2.mtk.mpeg4.decoder"
                type="video/mp4v-es"
                driverIntf="v4l2"
@@ -75,11 +77,11 @@
                driverIntf="v4l2"
                maxConcurrentInstances="16"
                canSwapWidthHeight="true" />
-        <!--<Video name="c2.mtk.avc.encoder.secure"
+        <Video name="c2.mtk.avc.encoder.secure"
                type="video/avc"
                driverIntf="v4l2"
                maxConcurrentInstances="16"
-               canSwapWidthHeight="true" />-->
+               canSwapWidthHeight="true" />
         <Video name="c2.mtk.hevc.encoder"
                type="video/hevc"
                driverIntf="v4l2"

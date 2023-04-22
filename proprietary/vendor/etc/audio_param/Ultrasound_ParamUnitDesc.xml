@@ -9,6 +9,7 @@
 		<Param name="2in1_speaker" type="int"/>
 		<Param name="ultrasound_rampdown_delay" type="int"/>
 		<Param name="delay_start_duration" type="int"/>
+		<Param name="delay_recovery_duration" type="int"/>
 		<Param name="mute_duration" type="int"/>
 	</ParamUnit>
 </ParamUnitDesc>

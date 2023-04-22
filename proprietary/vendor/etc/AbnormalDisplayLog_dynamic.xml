@@ -43,7 +43,7 @@
 	</Category>
 	<Category name="GPU">
 		<Group name="gpud dump" ui_type="default">
-			<Actions name="common dump" ui_type="button">
+			<Actions name="Common dump" ui_type="button">
 				<Action cmd_id="set_prop_enable_GPUD" value="1"/>
 				<Action cmd_id="set_prop_specify_dump_folder" value="/sdcard/gpud_dump/"/>
 				<Action cmd_id="set_prop_specify_process" value=""/>
@@ -53,7 +53,6 @@
 				<Action cmd_id="set_prop_hack_AUX_output_format" value="1"/>
 				<Action cmd_id="set_command_create_folder" value="1"/>
 			</Actions>
-			
 			<Actions name="GLES state error" ui_type="button">
 				<Action cmd_id="set_prop_enable_GPUD" value="1"/>
 				<Action cmd_id="set_prop_GLES_state_error" value="1"/>
@@ -61,6 +60,9 @@
 			<Actions name="Dump Gralloc Extra's Info" ui_type="button">
 				<Action cmd_id="set_prop_enable_GPUD" value="1"/>
 				<Action cmd_id="set_prop_dump_extra_info" value="1"/>
+			</Actions>
+			<Actions name="MEOW" ui_type="button">
+				<Action cmd_id="set_prop_open_meow" value="meow"/>
 			</Actions>
 			<Actions name="Start Dump" ui_type="notification">
 				<Action cmd_id="set_prop_start_writing_file" value="1"/>
@@ -82,12 +84,7 @@
 			<Command id="set_prop_dump_extra_info" name="Dump Extra Info" ui_type="checkbox" checked="1" unchecked="0" cmd_type="set_property" property="vendor.debug.gpud.gralloc_extra.log" default="0"/>
 			<Command id="set_command_create_folder" name="Create folder" ui_type="hidden" button_action="adb shell mkdir /sdcard/gpud_dump" cmd_type="adb shell"/>
 			<Command id="set_command_chmod" name="modify folder right" ui_type="hidden" button_action="adb shell chmod 777 /sdcard/gpud_dump" cmd_type="adb shell"/>
-		</Group>
-		<Group name="Action" ui_type="default">
-			<Command id="clear" name="Clear dump" ui_type="button" button_action="delete /sdcard/gpud_dump/" cmd_type="delete"/>
-		</Group>
-		<Group name="" ui_type="default">
-			<Command id="restore" name="Restore All" ui_type="button" button_action="restore" cmd_type="restore"/>
+			<Command id="set_prop_open_meow" name="MEOW" ui_type="checkbox" checked="meow" unchecked="0" cmd_type="set_property" property="vendor.debug.gpu.provider" default=""/>
 		</Group>
 	</Category>
 	<Category name="Display">
@@ -111,6 +108,14 @@
 			<Command id="set_prop_mdp_framechange" name="frame change" ui_type="checkbox" checked="1" unchecked="0" cmd_type="set_property" property="vendor.dp.frameChange.disable" default="0"/>
 			<Command id="restart" name="" ui_type="checkbox" checked="1" unchecked="0" cmd_type="set_property" property="vendor.debug.sf.restart" default="0"/>
 		</Group>
+	</Category>
+	<Category name="restore">
+	    <Group name="Action" ui_type="default">
+		    <Command id="clear" name="Clear dump" ui_type="button" button_action="delete /sdcard/gpud_dump/" cmd_type="delete"/>
+	    </Group>
+	    <Group name="" ui_type="default">
+		    <Command id="restore" name="Restore All" ui_type="button" button_action="restore" cmd_type="restore"/>
+	    </Group>
 	</Category>
 	<Category name="Submit And Restart">
 		<Actions name="Submit" ui_type="button">

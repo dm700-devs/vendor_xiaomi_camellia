@@ -101,6 +101,12 @@ android_app_import {
 }
 
 dex_import {
+	name: "mediatek-carrier-config-manager",
+	owner: "xiaomi",
+	jars: ["proprietary/framework/mediatek-carrier-config-manager.jar"],
+}
+
+dex_import {
 	name: "mediatek-common",
 	owner: "xiaomi",
 	jars: ["proprietary/framework/mediatek-common.jar"],
@@ -131,9 +137,9 @@ dex_import {
 }
 
 dex_import {
-	name: "mediatek-ims-legacy",
+	name: "mediatek-services",
 	owner: "xiaomi",
-	jars: ["proprietary/framework/mediatek-ims-legacy.jar"],
+	jars: ["proprietary/framework/mediatek-services.jar"],
 }
 
 dex_import {
@@ -238,9 +244,9 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "vibrator-mtk-default",
+	name: "memtrack-mediatek",
 	owner: "xiaomi",
-	src: "proprietary/vendor/etc/vintf/manifest/vibrator-mtk-default.xml",
+	src: "proprietary/vendor/etc/vintf/manifest/memtrack-mediatek.xml",
 	filename_from_src: true,
 	sub_dir: "vintf/manifest",
 	soc_specific: true,

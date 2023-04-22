@@ -48,4 +48,6 @@
 <virtualSpnOverride mccmncspn="46001京东通信" name="京东通信"/>
 <virtualSpnOverride mccmncspn="46001阿里通信" name="阿里通信"/>
 <virtualSpnOverride mccmncspn="204048.ta Δ" name="8.ta"/>
+<virtualSpnOverride mccmncspn="46015中国广电" name="中国广电"/>
+<virtualSpnOverride mccmncspn="46013中国广电" name="中国广电"/>
 </virtualSpnOverridesByEfSpn>

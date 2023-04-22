@@ -319,6 +319,8 @@ on post-fs-data
     chmod 0664 /proc/cm_mgr/dbg_cm_mgr
     chown system system /sys/kernel/cm_mgr/dbg_cm_mgr
     chmod 0664 /sys/kernel/cm_mgr/dbg_cm_mgr
+    chown system system /sys/kernel/fpsgo/minitop/enable
+    chmod 0664 /sys/kernel/fpsgo/minitop/enable
     chown system system /sys/kernel/fpsgo/fstb/fstb_fteh_list
     chmod 0664 /sys/kernel/fpsgo/fstb/fstb_fteh_list
     chown system system /sys/kernel/fpsgo/eara/ai_bench
@@ -591,6 +593,12 @@ on post-fs-data
     chmod 0660 /sys/kernel/fpsgo/fbt/thrm_enable
     chown system system /sys/kernel/fpsgo/fstb/adopt_low_fps
     chmod 0660 /sys/kernel/fpsgo/fstb/adopt_low_fps
+    chown system system /sys/module/mtk_fpsgo/parameters/xgf_ema2_enable
+    chmod 0660 /sys/module/mtk_fpsgo/parameters/xgf_ema2_enable
+    chown system system /sys/kernel/fpsgo/fstb/fstb_self_ctrl_fps_enable
+    chmod 0660 /sys/kernel/fpsgo/fstb/fstb_self_ctrl_fps_enable
+    chown system system /sys/module/mtk_fpsgo/parameters/fstb_consider_deq
+    chmod 0660 /sys/module/mtk_fpsgo/parameters/fstb_consider_deq
 
 # NET
     chown system system /proc/net/wlan/setCAM

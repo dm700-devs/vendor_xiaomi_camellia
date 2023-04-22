@@ -349,58 +349,6 @@
       sha_version="1"
   />
 
-  <!-- Claro Columbia -->
-  <supl_profile
-      name="Claro_CO"
-      addr=""
-      port="7275"
-      tls="true"
-      mcc_mnc="732101"
-      supl_version="2"
-      tls_version="1"
-      sha_version="0"
-      esupl_apn_mode="3"
-  />
-
-  <!-- Claro Peru -->
-  <supl_profile
-      name="Claro_PE"
-      addr=""
-      port="7275"
-      tls="true"
-      mcc_mnc="71610"
-      supl_version="2"
-      tls_version="1"
-      sha_version="0"
-      esupl_apn_mode="3"
-  />
-
-  <!-- Entel Peru -->
-  <supl_profile
-      name="Entel_PE"
-      addr=""
-      port="7275"
-      tls="true"
-      mcc_mnc="71617"
-      supl_version="2"
-      tls_version="1"
-      sha_version="0"
-      esupl_apn_mode="3"
-  />
-
-  <!-- Movistar Peru -->
-  <supl_profile
-      name="Movistar_PE"
-      addr=""
-      port="7275"
-      tls="true"
-      mcc_mnc="71606"
-      supl_version="2"
-      tls_version="1"
-      sha_version="0"
-      esupl_apn_mode="3"
-  />
-
   <!-- nlp_profile
 
     name:
@@ -549,8 +497,12 @@
         * available value: 10 ~ 500, default is 200
 
     lppe_dbh_cache_max_age:
-        The max age (in seconds) of cached GNSS / network Locations
+        The max age (in seconds) of cached network Locations
         available value: 1 ~ 1023, default is 120 (= 2 minutes)
+
+    lppe_dbh_gnss_cache_max_age:
+        The max age (in seconds) of cached GNSS Locations
+        available value: 1 ~ 1023, default is 10 (= 10 seconds)
 
     lppe_dbh_fill_gnss_when_bad_nlp_enable="false"
         * to decide if we can use GNSS location to fill LPPe DBH when no network location
@@ -578,6 +530,7 @@
     lppe_dbh_nlp_accuracy_level_a="2000"
     lppe_dbh_nlp_accuracy_level_b="2000"
     lppe_dbh_cache_max_age="1024"
+    lppe_dbh_gnss_cache_max_age="1024"
     lppe_dbh_fill_gnss_when_bad_nlp_enable="false"
   />
 
@@ -1171,16 +1124,6 @@
   <carrier_mapping name="Claro_Peru">
     <mcc_mnc
       v1="71610"
-    />
-  </carrier_mapping>
-    <carrier_mapping name="Movistar_Peru">
-    <mcc_mnc
-      v1="71606"
-    />
-  </carrier_mapping>
-    <carrier_mapping name="Claro_Columbia">
-    <mcc_mnc
-      v1="732101"
     />
   </carrier_mapping>
   <carrier_mapping name="Entel_Peru">
