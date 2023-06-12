@@ -49,9 +49,9 @@
  <Param name="MTK_AUDIO_A2DP_LATENCY_IMPROVE" value="no" />
  <Param name="MTK_BT_HEARING_AID_SUPPORT" value="yes" />
  <Param name="MTK_VOW_SUPPORT" value="yes" />
- <Param name="MTK_VOW_AMAZON_SUPPORT" value="yes" />
+ <Param name="MTK_VOW_AMAZON_SUPPORT" value="no" />
  <Param name="MTK_VOW_GVA_SUPPORT" value="yes" />
- <Param name="MTK_VOW_DUAL_MIC_SUPPORT" value="no" />
+ <Param name="MTK_VOW_DUAL_MIC_SUPPORT" value="yes" />
  <Param name="MTK_VOW_MAX_PDK_NUMBER" value="0" />
  <Param name="MTK_VOW_MULTI_KEYPHRASE_SUPPORT" value="" />
  <Param name="MTK_VOW_SINGLE_MIC_SELECT" value="" />
