@@ -1503,19 +1503,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/camellia/proprietary/vendor/lib/libwvkeyboxext.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvkeyboxext.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/meta_wifi_data.so:$(TARGET_COPY_OUT_VENDOR)/lib/meta_wifi_data.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/modules/bt_drv_connac1x.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/bt_drv_connac1x.ko \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/modules/connfem.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/connfem.ko \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/modules/fmradio_drv_mt6631_6635.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/fmradio_drv_mt6631_6635.ko \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/modules/fpsgo.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/fpsgo.ko \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/modules/gps_drv.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/gps_drv.ko \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/modules/met.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/met.ko \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/modules/modules.alias:$(TARGET_COPY_OUT_VENDOR)/lib/modules/modules.alias \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/modules/modules.dep:$(TARGET_COPY_OUT_VENDOR)/lib/modules/modules.dep \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/modules/modules.load:$(TARGET_COPY_OUT_VENDOR)/lib/modules/modules.load \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/modules/modules.softdep:$(TARGET_COPY_OUT_VENDOR)/lib/modules/modules.softdep \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/modules/wlan_drv_gen4m.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/wlan_drv_gen4m.ko \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/modules/wmt_chrdev_wifi.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/wmt_chrdev_wifi.ko \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/modules/wmt_drv.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/wmt_drv.ko \
     vendor/xiaomi/camellia/proprietary/vendor/lib/mt6833/libaiselector.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6833/libaiselector.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/mt6833/libdpframework.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6833/libdpframework.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/mt6833/libmtk_drvb.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6833/libmtk_drvb.so \
