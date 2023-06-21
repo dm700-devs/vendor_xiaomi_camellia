@@ -2487,7 +2487,6 @@ PRODUCT_PACKAGES += \
     libwifi-hal-mtk \
     ImsService \
     SoterService \
-    GpuGameDriver.mt6833 \
     HotwordEnrollmentOKGoogleRISCV \
     HotwordEnrollmentXGoogleRISCV \
     mediatek-carrier-config-manager \
