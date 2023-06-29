@@ -2484,7 +2484,6 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libfmjni \
-    libwifi-hal-mtk \
     ImsService \
     SoterService \
     HotwordEnrollmentOKGoogleRISCV \
