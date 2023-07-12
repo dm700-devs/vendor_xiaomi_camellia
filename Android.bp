@@ -148,15 +148,6 @@ dex_import {
 }
 
 prebuilt_etc_xml {
-	name: "android.hardware.usb@1.2-service-mediatekv2",
-	owner: "xiaomi",
-	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.usb@1.2-service-mediatekv2.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
-}
-
-prebuilt_etc_xml {
 	name: "gnss-mediatek",
 	owner: "xiaomi",
 	src: "proprietary/vendor/etc/vintf/manifest/gnss-mediatek.xml",
