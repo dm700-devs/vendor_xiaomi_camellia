@@ -934,12 +934,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/camellia/proprietary/vendor/lib/egl/libMEOW_gift.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libMEOW_gift.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/egl/libMEOW_qt.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libMEOW_qt.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/egl/libMEOW_trace.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libMEOW_trace.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/gc02m1b_aac_depth_mipi_mono_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/gc02m1b_aac_depth_mipi_mono_tuning.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/gc02m1b_qtech_depth_mipi_mono_india_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/gc02m1b_qtech_depth_mipi_mono_india_tuning.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/gc02m1b_qtech_depth_mipi_mono_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/gc02m1b_qtech_depth_mipi_mono_tuning.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/hi259h_aac_macro_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/hi259h_aac_macro_mipi_raw_tuning.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/hi259h_qtech_macro_mipi_raw_india_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/hi259h_qtech_macro_mipi_raw_india_tuning.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/hi259h_qtech_macro_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/hi259h_qtech_macro_mipi_raw_tuning.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/hw/android.hardware.bluetooth@1.1-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.bluetooth@1.1-impl-mediatek.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/hw/android.hardware.graphics.allocator@4.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.graphics.allocator@4.0-impl-mediatek.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/hw/android.hardware.graphics.mapper@4.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.graphics.mapper@4.0-impl-mediatek.so \
@@ -955,8 +949,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/camellia/proprietary/vendor/lib/hw/sound_trigger.primary.mt6833.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sound_trigger.primary.mt6833.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/hw/vendor.mediatek.hardware.bluetooth.audio@2.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.bluetooth.audio@2.1-impl.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/hw/vendor.mediatek.hardware.bluetooth.audio@2.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.bluetooth.audio@2.2-impl.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/hw/vendor.mediatek.hardware.camera.atms@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.camera.atms@1.0-impl.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/hw/vendor.mediatek.hardware.camera.bgservice@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.camera.bgservice@1.1-impl.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-impl.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/hw/vendor.mediatek.hardware.mms@1.6-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.mms@1.6-impl.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/hw/vendor.mediatek.hardware.mtkpower@1.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.mtkpower@1.2-impl.so \
@@ -965,345 +957,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/camellia/proprietary/vendor/lib/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/hw/vulkan.mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vulkan.mali.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/libAVCSecureVencCA.so:$(TARGET_COPY_OUT_VENDOR)/lib/libAVCSecureVencCA.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_gc02m1baacdepthmipimono_E2EHDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1baacdepthmipimono_E2EHDR_Preview.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_gc02m1baacdepthmipimono_E2EHDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1baacdepthmipimono_E2EHDR_Video.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_gc02m1baacdepthmipimono_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1baacdepthmipimono_Face_Capture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_gc02m1baacdepthmipimono_Flash_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1baacdepthmipimono_Flash_Capture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_gc02m1baacdepthmipimono_HDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1baacdepthmipimono_HDR_Capture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_gc02m1baacdepthmipimono_HDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1baacdepthmipimono_HDR_Preview.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_gc02m1baacdepthmipimono_HDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1baacdepthmipimono_HDR_Video.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_gc02m1baacdepthmipimono_N3D_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1baacdepthmipimono_N3D_Capture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_gc02m1baacdepthmipimono_N3D_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1baacdepthmipimono_N3D_Preview.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_gc02m1baacdepthmipimono_N3D_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1baacdepthmipimono_N3D_Video.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_gc02m1baacdepthmipimono_P1_YUV.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1baacdepthmipimono_P1_YUV.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_gc02m1baacdepthmipimono_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1baacdepthmipimono_Scene_Capture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_gc02m1baacdepthmipimono_Scene_Capture_4cell.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1baacdepthmipimono_Scene_Capture_4cell.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_gc02m1baacdepthmipimono_Scene_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1baacdepthmipimono_Scene_Preview.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_gc02m1baacdepthmipimono_Scene_Preview_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1baacdepthmipimono_Scene_Preview_4k.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_gc02m1baacdepthmipimono_Scene_Preview_ZSD_Flash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1baacdepthmipimono_Scene_Preview_ZSD_Flash.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_gc02m1baacdepthmipimono_Video_1080.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1baacdepthmipimono_Video_1080.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_gc02m1baacdepthmipimono_Video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1baacdepthmipimono_Video_4k.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_gc02m1bqtechdepthmipimono_E2EHDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1bqtechdepthmipimono_E2EHDR_Preview.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_gc02m1bqtechdepthmipimono_E2EHDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1bqtechdepthmipimono_E2EHDR_Video.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_gc02m1bqtechdepthmipimono_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1bqtechdepthmipimono_Face_Capture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_gc02m1bqtechdepthmipimono_Flash_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1bqtechdepthmipimono_Flash_Capture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_gc02m1bqtechdepthmipimono_HDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1bqtechdepthmipimono_HDR_Capture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_gc02m1bqtechdepthmipimono_HDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1bqtechdepthmipimono_HDR_Preview.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_gc02m1bqtechdepthmipimono_HDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1bqtechdepthmipimono_HDR_Video.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_gc02m1bqtechdepthmipimono_N3D_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1bqtechdepthmipimono_N3D_Capture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_gc02m1bqtechdepthmipimono_N3D_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1bqtechdepthmipimono_N3D_Preview.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_gc02m1bqtechdepthmipimono_N3D_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1bqtechdepthmipimono_N3D_Video.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_gc02m1bqtechdepthmipimono_P1_YUV.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1bqtechdepthmipimono_P1_YUV.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_gc02m1bqtechdepthmipimono_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1bqtechdepthmipimono_Scene_Capture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_gc02m1bqtechdepthmipimono_Scene_Capture_4cell.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1bqtechdepthmipimono_Scene_Capture_4cell.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_gc02m1bqtechdepthmipimono_Scene_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1bqtechdepthmipimono_Scene_Preview.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_gc02m1bqtechdepthmipimono_Scene_Preview_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1bqtechdepthmipimono_Scene_Preview_4k.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_gc02m1bqtechdepthmipimono_Scene_Preview_ZSD_Flash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1bqtechdepthmipimono_Scene_Preview_ZSD_Flash.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_gc02m1bqtechdepthmipimono_Video_1080.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1bqtechdepthmipimono_Video_1080.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_gc02m1bqtechdepthmipimono_Video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1bqtechdepthmipimono_Video_4k.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_gc02m1bqtechdepthmipimonoindia_E2EHDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1bqtechdepthmipimonoindia_E2EHDR_Preview.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_gc02m1bqtechdepthmipimonoindia_E2EHDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1bqtechdepthmipimonoindia_E2EHDR_Video.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_gc02m1bqtechdepthmipimonoindia_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1bqtechdepthmipimonoindia_Face_Capture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_gc02m1bqtechdepthmipimonoindia_Flash_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1bqtechdepthmipimonoindia_Flash_Capture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_gc02m1bqtechdepthmipimonoindia_HDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1bqtechdepthmipimonoindia_HDR_Capture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_gc02m1bqtechdepthmipimonoindia_HDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1bqtechdepthmipimonoindia_HDR_Preview.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_gc02m1bqtechdepthmipimonoindia_HDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1bqtechdepthmipimonoindia_HDR_Video.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_gc02m1bqtechdepthmipimonoindia_N3D_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1bqtechdepthmipimonoindia_N3D_Capture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_gc02m1bqtechdepthmipimonoindia_N3D_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1bqtechdepthmipimonoindia_N3D_Preview.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_gc02m1bqtechdepthmipimonoindia_N3D_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1bqtechdepthmipimonoindia_N3D_Video.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_gc02m1bqtechdepthmipimonoindia_P1_YUV.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1bqtechdepthmipimonoindia_P1_YUV.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_gc02m1bqtechdepthmipimonoindia_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1bqtechdepthmipimonoindia_Scene_Capture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_gc02m1bqtechdepthmipimonoindia_Scene_Capture_4cell.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1bqtechdepthmipimonoindia_Scene_Capture_4cell.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_gc02m1bqtechdepthmipimonoindia_Scene_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1bqtechdepthmipimonoindia_Scene_Preview.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_gc02m1bqtechdepthmipimonoindia_Scene_Preview_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1bqtechdepthmipimonoindia_Scene_Preview_4k.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_gc02m1bqtechdepthmipimonoindia_Scene_Preview_ZSD_Flash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1bqtechdepthmipimonoindia_Scene_Preview_ZSD_Flash.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_gc02m1bqtechdepthmipimonoindia_Video_1080.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1bqtechdepthmipimonoindia_Video_1080.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_gc02m1bqtechdepthmipimonoindia_Video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1bqtechdepthmipimonoindia_Video_4k.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_hi259haacmacromipiraw_E2EHDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi259haacmacromipiraw_E2EHDR_Preview.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_hi259haacmacromipiraw_E2EHDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi259haacmacromipiraw_E2EHDR_Video.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_hi259haacmacromipiraw_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi259haacmacromipiraw_Face_Capture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_hi259haacmacromipiraw_Flash_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi259haacmacromipiraw_Flash_Capture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_hi259haacmacromipiraw_Flash_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi259haacmacromipiraw_Flash_Preview.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_hi259haacmacromipiraw_HDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi259haacmacromipiraw_HDR_Capture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_hi259haacmacromipiraw_HDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi259haacmacromipiraw_HDR_Preview.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_hi259haacmacromipiraw_HDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi259haacmacromipiraw_HDR_Video.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_hi259haacmacromipiraw_MIBeautyFace_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi259haacmacromipiraw_MIBeautyFace_Capture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_hi259haacmacromipiraw_MIBeautyFace_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi259haacmacromipiraw_MIBeautyFace_Preview.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_hi259haacmacromipiraw_N3D_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi259haacmacromipiraw_N3D_Capture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_hi259haacmacromipiraw_N3D_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi259haacmacromipiraw_N3D_Preview.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_hi259haacmacromipiraw_N3D_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi259haacmacromipiraw_N3D_Video.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_hi259haacmacromipiraw_P1_YUV.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi259haacmacromipiraw_P1_YUV.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_hi259haacmacromipiraw_ProColorCapture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi259haacmacromipiraw_ProColorCapture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_hi259haacmacromipiraw_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi259haacmacromipiraw_Scene_Capture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_hi259haacmacromipiraw_Scene_Capture_4cell.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi259haacmacromipiraw_Scene_Capture_4cell.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_hi259haacmacromipiraw_Scene_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi259haacmacromipiraw_Scene_Preview.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_hi259haacmacromipiraw_Scene_Preview_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi259haacmacromipiraw_Scene_Preview_4k.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_hi259haacmacromipiraw_Scene_Preview_ZSD_Flash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi259haacmacromipiraw_Scene_Preview_ZSD_Flash.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_hi259haacmacromipiraw_Video_1080.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi259haacmacromipiraw_Video_1080.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_hi259haacmacromipiraw_Video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi259haacmacromipiraw_Video_4k.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_hi259haacmacromipiraw_Zoom_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi259haacmacromipiraw_Zoom_Capture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_hi259haacmacromipiraw_Zoom_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi259haacmacromipiraw_Zoom_Preview.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_hi259hqtechmacromipiraw_E2EHDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi259hqtechmacromipiraw_E2EHDR_Preview.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_hi259hqtechmacromipiraw_E2EHDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi259hqtechmacromipiraw_E2EHDR_Video.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_hi259hqtechmacromipiraw_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi259hqtechmacromipiraw_Face_Capture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_hi259hqtechmacromipiraw_Flash_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi259hqtechmacromipiraw_Flash_Capture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_hi259hqtechmacromipiraw_Flash_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi259hqtechmacromipiraw_Flash_Preview.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_hi259hqtechmacromipiraw_HDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi259hqtechmacromipiraw_HDR_Capture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_hi259hqtechmacromipiraw_HDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi259hqtechmacromipiraw_HDR_Preview.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_hi259hqtechmacromipiraw_HDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi259hqtechmacromipiraw_HDR_Video.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_hi259hqtechmacromipiraw_MIBeautyFace_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi259hqtechmacromipiraw_MIBeautyFace_Capture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_hi259hqtechmacromipiraw_MIBeautyFace_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi259hqtechmacromipiraw_MIBeautyFace_Preview.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_hi259hqtechmacromipiraw_N3D_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi259hqtechmacromipiraw_N3D_Capture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_hi259hqtechmacromipiraw_N3D_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi259hqtechmacromipiraw_N3D_Preview.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_hi259hqtechmacromipiraw_N3D_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi259hqtechmacromipiraw_N3D_Video.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_hi259hqtechmacromipiraw_P1_YUV.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi259hqtechmacromipiraw_P1_YUV.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_hi259hqtechmacromipiraw_ProColorCapture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi259hqtechmacromipiraw_ProColorCapture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_hi259hqtechmacromipiraw_ProColorPreview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi259hqtechmacromipiraw_ProColorPreview.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_hi259hqtechmacromipiraw_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi259hqtechmacromipiraw_Scene_Capture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_hi259hqtechmacromipiraw_Scene_Capture_4cell.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi259hqtechmacromipiraw_Scene_Capture_4cell.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_hi259hqtechmacromipiraw_Scene_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi259hqtechmacromipiraw_Scene_Preview.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_hi259hqtechmacromipiraw_Scene_Preview_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi259hqtechmacromipiraw_Scene_Preview_4k.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_hi259hqtechmacromipiraw_Scene_Preview_ZSD_Flash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi259hqtechmacromipiraw_Scene_Preview_ZSD_Flash.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_hi259hqtechmacromipiraw_Video_1080.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi259hqtechmacromipiraw_Video_1080.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_hi259hqtechmacromipiraw_Video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi259hqtechmacromipiraw_Video_4k.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_hi259hqtechmacromipiraw_Zoom_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi259hqtechmacromipiraw_Zoom_Capture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_hi259hqtechmacromipiraw_Zoom_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi259hqtechmacromipiraw_Zoom_Preview.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_hi259hqtechmacromipirawindia_E2EHDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi259hqtechmacromipirawindia_E2EHDR_Preview.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_hi259hqtechmacromipirawindia_E2EHDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi259hqtechmacromipirawindia_E2EHDR_Video.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_hi259hqtechmacromipirawindia_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi259hqtechmacromipirawindia_Face_Capture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_hi259hqtechmacromipirawindia_Flash_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi259hqtechmacromipirawindia_Flash_Capture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_hi259hqtechmacromipirawindia_Flash_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi259hqtechmacromipirawindia_Flash_Preview.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_hi259hqtechmacromipirawindia_HDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi259hqtechmacromipirawindia_HDR_Capture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_hi259hqtechmacromipirawindia_HDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi259hqtechmacromipirawindia_HDR_Preview.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_hi259hqtechmacromipirawindia_HDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi259hqtechmacromipirawindia_HDR_Video.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_hi259hqtechmacromipirawindia_MIBeautyFace_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi259hqtechmacromipirawindia_MIBeautyFace_Capture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_hi259hqtechmacromipirawindia_MIBeautyFace_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi259hqtechmacromipirawindia_MIBeautyFace_Preview.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_hi259hqtechmacromipirawindia_N3D_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi259hqtechmacromipirawindia_N3D_Capture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_hi259hqtechmacromipirawindia_N3D_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi259hqtechmacromipirawindia_N3D_Preview.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_hi259hqtechmacromipirawindia_N3D_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi259hqtechmacromipirawindia_N3D_Video.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_hi259hqtechmacromipirawindia_P1_YUV.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi259hqtechmacromipirawindia_P1_YUV.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_hi259hqtechmacromipirawindia_ProColorCapture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi259hqtechmacromipirawindia_ProColorCapture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_hi259hqtechmacromipirawindia_ProColorPreview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi259hqtechmacromipirawindia_ProColorPreview.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_hi259hqtechmacromipirawindia_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi259hqtechmacromipirawindia_Scene_Capture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_hi259hqtechmacromipirawindia_Scene_Capture_4cell.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi259hqtechmacromipirawindia_Scene_Capture_4cell.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_hi259hqtechmacromipirawindia_Scene_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi259hqtechmacromipirawindia_Scene_Preview.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_hi259hqtechmacromipirawindia_Scene_Preview_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi259hqtechmacromipirawindia_Scene_Preview_4k.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_hi259hqtechmacromipirawindia_Scene_Preview_ZSD_Flash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi259hqtechmacromipirawindia_Scene_Preview_ZSD_Flash.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_hi259hqtechmacromipirawindia_Video_1080.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi259hqtechmacromipirawindia_Video_1080.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_hi259hqtechmacromipirawindia_Video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi259hqtechmacromipirawindia_Video_4k.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_hi259hqtechmacromipirawindia_Zoom_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi259hqtechmacromipirawindia_Zoom_Capture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_hi259hqtechmacromipirawindia_Zoom_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi259hqtechmacromipirawindia_Zoom_Preview.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov02b10aacmacromipiraw_E2EHDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov02b10aacmacromipiraw_E2EHDR_Preview.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov02b10aacmacromipiraw_E2EHDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov02b10aacmacromipiraw_E2EHDR_Video.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov02b10aacmacromipiraw_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov02b10aacmacromipiraw_Face_Capture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov02b10aacmacromipiraw_Flash_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov02b10aacmacromipiraw_Flash_Capture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov02b10aacmacromipiraw_HDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov02b10aacmacromipiraw_HDR_Capture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov02b10aacmacromipiraw_HDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov02b10aacmacromipiraw_HDR_Preview.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov02b10aacmacromipiraw_HDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov02b10aacmacromipiraw_HDR_Video.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov02b10aacmacromipiraw_MIBeautyFace_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov02b10aacmacromipiraw_MIBeautyFace_Capture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov02b10aacmacromipiraw_MIBeautyFace_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov02b10aacmacromipiraw_MIBeautyFace_Preview.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov02b10aacmacromipiraw_N3D_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov02b10aacmacromipiraw_N3D_Capture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov02b10aacmacromipiraw_N3D_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov02b10aacmacromipiraw_N3D_Preview.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov02b10aacmacromipiraw_N3D_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov02b10aacmacromipiraw_N3D_Video.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov02b10aacmacromipiraw_P1_YUV.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov02b10aacmacromipiraw_P1_YUV.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov02b10aacmacromipiraw_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov02b10aacmacromipiraw_Scene_Capture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov02b10aacmacromipiraw_Scene_Capture_4cell.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov02b10aacmacromipiraw_Scene_Capture_4cell.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov02b10aacmacromipiraw_Scene_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov02b10aacmacromipiraw_Scene_Preview.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov02b10aacmacromipiraw_Scene_Preview_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov02b10aacmacromipiraw_Scene_Preview_4k.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov02b10aacmacromipiraw_Scene_Preview_ZSD_Flash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov02b10aacmacromipiraw_Scene_Preview_ZSD_Flash.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov02b10aacmacromipiraw_Video_1080.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov02b10aacmacromipiraw_Video_1080.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov02b10aacmacromipiraw_Video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov02b10aacmacromipiraw_Video_4k.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov02b10aacmacromipiraw_Zoom_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov02b10aacmacromipiraw_Zoom_Capture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov02b10aacmacromipiraw_Zoom_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov02b10aacmacromipiraw_Zoom_Preview.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48baacmainmipiraw_3rd_Party_camera_00.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48baacmainmipiraw_3rd_Party_camera_00.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48baacmainmipiraw_3rd_Party_camera_01.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48baacmainmipiraw_3rd_Party_camera_01.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48baacmainmipiraw_3rd_Party_camera_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48baacmainmipiraw_3rd_Party_camera_Capture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48baacmainmipiraw_Default_Capture_XTS.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48baacmainmipiraw_Default_Capture_XTS.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48baacmainmipiraw_Default_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48baacmainmipiraw_Default_Preview.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48baacmainmipiraw_EIS_Video_1080.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48baacmainmipiraw_EIS_Video_1080.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48baacmainmipiraw_EIS_Video_1080_ZOOM.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48baacmainmipiraw_EIS_Video_1080_ZOOM.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48baacmainmipiraw_EIS_Video_720.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48baacmainmipiraw_EIS_Video_720.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48baacmainmipiraw_EIS_Video_720_ZOOM.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48baacmainmipiraw_EIS_Video_720_ZOOM.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48baacmainmipiraw_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48baacmainmipiraw_Face_Capture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48baacmainmipiraw_Flash_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48baacmainmipiraw_Flash_Capture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48baacmainmipiraw_Flash_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48baacmainmipiraw_Flash_Preview.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48baacmainmipiraw_MICamera_Panorama.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48baacmainmipiraw_MICamera_Panorama.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48baacmainmipiraw_MI_48M_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48baacmainmipiraw_MI_48M_Capture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48baacmainmipiraw_MI_48M_Flash_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48baacmainmipiraw_MI_48M_Flash_Capture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48baacmainmipiraw_MI_Bokeh_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48baacmainmipiraw_MI_Bokeh_Capture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48baacmainmipiraw_MI_Bokeh_Capture_Screen.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48baacmainmipiraw_MI_Bokeh_Capture_Screen.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48baacmainmipiraw_MI_HDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48baacmainmipiraw_MI_HDR_Capture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48baacmainmipiraw_MI_Night_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48baacmainmipiraw_MI_Night_Capture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48baacmainmipiraw_MI_Night_Capture_10x.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48baacmainmipiraw_MI_Night_Capture_10x.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48baacmainmipiraw_MI_Night_Capture_6x.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48baacmainmipiraw_MI_Night_Capture_6x.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48baacmainmipiraw_MI_Prefessional_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48baacmainmipiraw_MI_Prefessional_Capture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48baacmainmipiraw_MI_Prefessional_Capture_10x.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48baacmainmipiraw_MI_Prefessional_Capture_10x.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48baacmainmipiraw_MI_Prefessional_Capture_6x.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48baacmainmipiraw_MI_Prefessional_Capture_6x.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48baacmainmipiraw_MI_SlowVideo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48baacmainmipiraw_MI_SlowVideo.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48baacmainmipiraw_MI_Zoom_Capture_10x.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48baacmainmipiraw_MI_Zoom_Capture_10x.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48baacmainmipiraw_MI_Zoom_Preview_10x.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48baacmainmipiraw_MI_Zoom_Preview_10x.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48baacmainmipiraw_MI_Zoom_Preview_6x.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48baacmainmipiraw_MI_Zoom_Preview_6x.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48baacmainmipiraw_ProColorCapture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48baacmainmipiraw_ProColorCapture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48baacmainmipiraw_QQ_Call.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48baacmainmipiraw_QQ_Call.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48baacmainmipiraw_QQ_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48baacmainmipiraw_QQ_Capture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48baacmainmipiraw_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48baacmainmipiraw_Scene_Capture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48baacmainmipiraw_Scene_Capture_4cell.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48baacmainmipiraw_Scene_Capture_4cell.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48baacmainmipiraw_Scene_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48baacmainmipiraw_Scene_Preview.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48baacmainmipiraw_TTPIC_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48baacmainmipiraw_TTPIC_Capture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48baacmainmipiraw_Video_1080.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48baacmainmipiraw_Video_1080.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48baacmainmipiraw_Video_1080_ZOOM.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48baacmainmipiraw_Video_1080_ZOOM.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48baacmainmipiraw_Video_720.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48baacmainmipiraw_Video_720.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48baacmainmipiraw_Video_720_ZOOM.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48baacmainmipiraw_Video_720_ZOOM.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48baacmainmipiraw_Video_other.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48baacmainmipiraw_Video_other.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48baacmainmipiraw_Wechat_Call.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48baacmainmipiraw_Wechat_Call.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48baacmainmipiraw_Wechat_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48baacmainmipiraw_Wechat_Capture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48bqtechmainmipiraw_3rd_Party_camera_00.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48bqtechmainmipiraw_3rd_Party_camera_00.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48bqtechmainmipiraw_3rd_Party_camera_01.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48bqtechmainmipiraw_3rd_Party_camera_01.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48bqtechmainmipiraw_3rd_Party_camera_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48bqtechmainmipiraw_3rd_Party_camera_Capture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48bqtechmainmipiraw_Default_Capture_XTS.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48bqtechmainmipiraw_Default_Capture_XTS.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48bqtechmainmipiraw_EIS_Video_1080.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48bqtechmainmipiraw_EIS_Video_1080.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48bqtechmainmipiraw_EIS_Video_1080_ZOOM.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48bqtechmainmipiraw_EIS_Video_1080_ZOOM.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48bqtechmainmipiraw_EIS_Video_720.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48bqtechmainmipiraw_EIS_Video_720.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48bqtechmainmipiraw_EIS_Video_720_ZOOM.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48bqtechmainmipiraw_EIS_Video_720_ZOOM.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48bqtechmainmipiraw_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48bqtechmainmipiraw_Face_Capture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48bqtechmainmipiraw_Flash_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48bqtechmainmipiraw_Flash_Capture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48bqtechmainmipiraw_Flash_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48bqtechmainmipiraw_Flash_Preview.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48bqtechmainmipiraw_MICamera_Panorama.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48bqtechmainmipiraw_MICamera_Panorama.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48bqtechmainmipiraw_MI_48M_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48bqtechmainmipiraw_MI_48M_Capture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48bqtechmainmipiraw_MI_48M_Flash_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48bqtechmainmipiraw_MI_48M_Flash_Capture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48bqtechmainmipiraw_MI_Bokeh_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48bqtechmainmipiraw_MI_Bokeh_Capture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48bqtechmainmipiraw_MI_Bokeh_Capture_Screen.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48bqtechmainmipiraw_MI_Bokeh_Capture_Screen.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48bqtechmainmipiraw_MI_HDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48bqtechmainmipiraw_MI_HDR_Capture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48bqtechmainmipiraw_MI_Night_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48bqtechmainmipiraw_MI_Night_Capture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48bqtechmainmipiraw_MI_Night_Capture_10x.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48bqtechmainmipiraw_MI_Night_Capture_10x.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48bqtechmainmipiraw_MI_Night_Capture_6x.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48bqtechmainmipiraw_MI_Night_Capture_6x.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48bqtechmainmipiraw_MI_Prefessional_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48bqtechmainmipiraw_MI_Prefessional_Capture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48bqtechmainmipiraw_MI_Prefessional_Capture_10x.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48bqtechmainmipiraw_MI_Prefessional_Capture_10x.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48bqtechmainmipiraw_MI_Prefessional_Capture_6x.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48bqtechmainmipiraw_MI_Prefessional_Capture_6x.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48bqtechmainmipiraw_MI_SlowVideo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48bqtechmainmipiraw_MI_SlowVideo.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48bqtechmainmipiraw_MI_Zoom_Capture_10x.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48bqtechmainmipiraw_MI_Zoom_Capture_10x.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48bqtechmainmipiraw_MI_Zoom_Preview_10x.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48bqtechmainmipiraw_MI_Zoom_Preview_10x.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48bqtechmainmipiraw_MI_Zoom_Preview_6x.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48bqtechmainmipiraw_MI_Zoom_Preview_6x.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48bqtechmainmipiraw_ProColorCapture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48bqtechmainmipiraw_ProColorCapture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48bqtechmainmipiraw_ProColorPreview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48bqtechmainmipiraw_ProColorPreview.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48bqtechmainmipiraw_QQ_Call.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48bqtechmainmipiraw_QQ_Call.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48bqtechmainmipiraw_QQ_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48bqtechmainmipiraw_QQ_Capture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48bqtechmainmipiraw_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48bqtechmainmipiraw_Scene_Capture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48bqtechmainmipiraw_Scene_Capture_4cell.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48bqtechmainmipiraw_Scene_Capture_4cell.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48bqtechmainmipiraw_Scene_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48bqtechmainmipiraw_Scene_Preview.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48bqtechmainmipiraw_TTPIC_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48bqtechmainmipiraw_TTPIC_Capture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48bqtechmainmipiraw_Video_1080.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48bqtechmainmipiraw_Video_1080.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48bqtechmainmipiraw_Video_1080_ZOOM.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48bqtechmainmipiraw_Video_1080_ZOOM.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48bqtechmainmipiraw_Video_720.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48bqtechmainmipiraw_Video_720.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48bqtechmainmipiraw_Video_720_ZOOM.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48bqtechmainmipiraw_Video_720_ZOOM.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48bqtechmainmipiraw_Video_other.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48bqtechmainmipiraw_Video_other.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48bqtechmainmipiraw_Wechat_Call.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48bqtechmainmipiraw_Wechat_Call.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48bqtechmainmipiraw_Wechat_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48bqtechmainmipiraw_Wechat_Capture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48bqtechmainmipirawindia_3rd_Party_camera_00.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48bqtechmainmipirawindia_3rd_Party_camera_00.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48bqtechmainmipirawindia_3rd_Party_camera_01.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48bqtechmainmipirawindia_3rd_Party_camera_01.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48bqtechmainmipirawindia_3rd_Party_camera_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48bqtechmainmipirawindia_3rd_Party_camera_Capture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48bqtechmainmipirawindia_Default_Capture_XTS.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48bqtechmainmipirawindia_Default_Capture_XTS.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48bqtechmainmipirawindia_EIS_Video_1080.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48bqtechmainmipirawindia_EIS_Video_1080.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48bqtechmainmipirawindia_EIS_Video_1080_ZOOM.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48bqtechmainmipirawindia_EIS_Video_1080_ZOOM.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48bqtechmainmipirawindia_EIS_Video_720.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48bqtechmainmipirawindia_EIS_Video_720.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48bqtechmainmipirawindia_EIS_Video_720_ZOOM.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48bqtechmainmipirawindia_EIS_Video_720_ZOOM.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48bqtechmainmipirawindia_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48bqtechmainmipirawindia_Face_Capture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48bqtechmainmipirawindia_Flash_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48bqtechmainmipirawindia_Flash_Capture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48bqtechmainmipirawindia_Flash_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48bqtechmainmipirawindia_Flash_Preview.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48bqtechmainmipirawindia_MICamera_Panorama.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48bqtechmainmipirawindia_MICamera_Panorama.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48bqtechmainmipirawindia_MI_48M_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48bqtechmainmipirawindia_MI_48M_Capture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48bqtechmainmipirawindia_MI_48M_Flash_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48bqtechmainmipirawindia_MI_48M_Flash_Capture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48bqtechmainmipirawindia_MI_Bokeh_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48bqtechmainmipirawindia_MI_Bokeh_Capture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48bqtechmainmipirawindia_MI_Bokeh_Capture_Screen.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48bqtechmainmipirawindia_MI_Bokeh_Capture_Screen.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48bqtechmainmipirawindia_MI_HDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48bqtechmainmipirawindia_MI_HDR_Capture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48bqtechmainmipirawindia_MI_Night_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48bqtechmainmipirawindia_MI_Night_Capture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48bqtechmainmipirawindia_MI_Night_Capture_10x.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48bqtechmainmipirawindia_MI_Night_Capture_10x.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48bqtechmainmipirawindia_MI_Night_Capture_6x.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48bqtechmainmipirawindia_MI_Night_Capture_6x.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48bqtechmainmipirawindia_MI_Prefessional_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48bqtechmainmipirawindia_MI_Prefessional_Capture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48bqtechmainmipirawindia_MI_Prefessional_Capture_10x.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48bqtechmainmipirawindia_MI_Prefessional_Capture_10x.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48bqtechmainmipirawindia_MI_Prefessional_Capture_6x.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48bqtechmainmipirawindia_MI_Prefessional_Capture_6x.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48bqtechmainmipirawindia_MI_SlowVideo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48bqtechmainmipirawindia_MI_SlowVideo.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48bqtechmainmipirawindia_MI_Zoom_Capture_10x.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48bqtechmainmipirawindia_MI_Zoom_Capture_10x.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48bqtechmainmipirawindia_MI_Zoom_Preview_10x.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48bqtechmainmipirawindia_MI_Zoom_Preview_10x.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48bqtechmainmipirawindia_MI_Zoom_Preview_6x.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48bqtechmainmipirawindia_MI_Zoom_Preview_6x.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48bqtechmainmipirawindia_ProColorCapture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48bqtechmainmipirawindia_ProColorCapture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48bqtechmainmipirawindia_ProColorPreview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48bqtechmainmipirawindia_ProColorPreview.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48bqtechmainmipirawindia_QQ_Call.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48bqtechmainmipirawindia_QQ_Call.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48bqtechmainmipirawindia_QQ_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48bqtechmainmipirawindia_QQ_Capture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48bqtechmainmipirawindia_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48bqtechmainmipirawindia_Scene_Capture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48bqtechmainmipirawindia_Scene_Capture_4cell.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48bqtechmainmipirawindia_Scene_Capture_4cell.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48bqtechmainmipirawindia_Scene_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48bqtechmainmipirawindia_Scene_Preview.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48bqtechmainmipirawindia_TTPIC_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48bqtechmainmipirawindia_TTPIC_Capture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48bqtechmainmipirawindia_Video_1080.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48bqtechmainmipirawindia_Video_1080.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48bqtechmainmipirawindia_Video_1080_ZOOM.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48bqtechmainmipirawindia_Video_1080_ZOOM.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48bqtechmainmipirawindia_Video_720.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48bqtechmainmipirawindia_Video_720.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48bqtechmainmipirawindia_Video_720_ZOOM.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48bqtechmainmipirawindia_Video_720_ZOOM.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48bqtechmainmipirawindia_Video_other.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48bqtechmainmipirawindia_Video_other.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48bqtechmainmipirawindia_Wechat_Call.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48bqtechmainmipirawindia_Wechat_Call.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov48bqtechmainmipirawindia_Wechat_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48bqtechmainmipirawindia_Wechat_Capture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov8856aacfrontmipiraw_3rd_Party_camera_00.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856aacfrontmipiraw_3rd_Party_camera_00.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov8856aacfrontmipiraw_3rd_Party_camera_01.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856aacfrontmipiraw_3rd_Party_camera_01.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov8856aacfrontmipiraw_3rd_Party_camera_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856aacfrontmipiraw_3rd_Party_camera_Capture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov8856aacfrontmipiraw_Default_Capture_XTS.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856aacfrontmipiraw_Default_Capture_XTS.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov8856aacfrontmipiraw_EIS_Video_1080.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856aacfrontmipiraw_EIS_Video_1080.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov8856aacfrontmipiraw_EIS_Video_720.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856aacfrontmipiraw_EIS_Video_720.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov8856aacfrontmipiraw_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856aacfrontmipiraw_Face_Capture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov8856aacfrontmipiraw_MICamera_Panorama.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856aacfrontmipiraw_MICamera_Panorama.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov8856aacfrontmipiraw_MI_Bokeh_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856aacfrontmipiraw_MI_Bokeh_Capture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov8856aacfrontmipiraw_MI_HDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856aacfrontmipiraw_MI_HDR_Capture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov8856aacfrontmipiraw_QQ_Call.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856aacfrontmipiraw_QQ_Call.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov8856aacfrontmipiraw_QQ_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856aacfrontmipiraw_QQ_Capture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov8856aacfrontmipiraw_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856aacfrontmipiraw_Scene_Capture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov8856aacfrontmipiraw_Scene_Capture_4cell.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856aacfrontmipiraw_Scene_Capture_4cell.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov8856aacfrontmipiraw_Scene_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856aacfrontmipiraw_Scene_Preview.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov8856aacfrontmipiraw_TTPIC_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856aacfrontmipiraw_TTPIC_Capture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov8856aacfrontmipiraw_Video_1080.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856aacfrontmipiraw_Video_1080.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov8856aacfrontmipiraw_Video_720.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856aacfrontmipiraw_Video_720.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov8856aacfrontmipiraw_Video_other.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856aacfrontmipiraw_Video_other.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov8856aacfrontmipiraw_Wechat_Call.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856aacfrontmipiraw_Wechat_Call.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov8856aacfrontmipiraw_Wechat_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856aacfrontmipiraw_Wechat_Capture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov8856ofilmfrontmipiraw_3rd_Party_camera_00.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856ofilmfrontmipiraw_3rd_Party_camera_00.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov8856ofilmfrontmipiraw_3rd_Party_camera_01.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856ofilmfrontmipiraw_3rd_Party_camera_01.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov8856ofilmfrontmipiraw_3rd_Party_camera_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856ofilmfrontmipiraw_3rd_Party_camera_Capture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov8856ofilmfrontmipiraw_Default_Capture_XTS.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856ofilmfrontmipiraw_Default_Capture_XTS.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov8856ofilmfrontmipiraw_EIS_Video_1080.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856ofilmfrontmipiraw_EIS_Video_1080.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov8856ofilmfrontmipiraw_EIS_Video_720.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856ofilmfrontmipiraw_EIS_Video_720.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov8856ofilmfrontmipiraw_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856ofilmfrontmipiraw_Face_Capture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov8856ofilmfrontmipiraw_MICamera_Panorama.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856ofilmfrontmipiraw_MICamera_Panorama.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov8856ofilmfrontmipiraw_MI_Bokeh_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856ofilmfrontmipiraw_MI_Bokeh_Capture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov8856ofilmfrontmipiraw_MI_HDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856ofilmfrontmipiraw_MI_HDR_Capture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov8856ofilmfrontmipiraw_QQ_Call.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856ofilmfrontmipiraw_QQ_Call.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov8856ofilmfrontmipiraw_QQ_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856ofilmfrontmipiraw_QQ_Capture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov8856ofilmfrontmipiraw_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856ofilmfrontmipiraw_Scene_Capture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov8856ofilmfrontmipiraw_Scene_Capture_4cell.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856ofilmfrontmipiraw_Scene_Capture_4cell.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov8856ofilmfrontmipiraw_Scene_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856ofilmfrontmipiraw_Scene_Preview.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov8856ofilmfrontmipiraw_TTPIC_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856ofilmfrontmipiraw_TTPIC_Capture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov8856ofilmfrontmipiraw_Video_1080.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856ofilmfrontmipiraw_Video_1080.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov8856ofilmfrontmipiraw_Video_720.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856ofilmfrontmipiraw_Video_720.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov8856ofilmfrontmipiraw_Video_other.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856ofilmfrontmipiraw_Video_other.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov8856ofilmfrontmipiraw_Wechat_Call.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856ofilmfrontmipiraw_Wechat_Call.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov8856ofilmfrontmipiraw_Wechat_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856ofilmfrontmipiraw_Wechat_Capture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov8856ofilmfrontmipirawindia_3rd_Party_camera_00.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856ofilmfrontmipirawindia_3rd_Party_camera_00.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov8856ofilmfrontmipirawindia_3rd_Party_camera_01.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856ofilmfrontmipirawindia_3rd_Party_camera_01.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov8856ofilmfrontmipirawindia_3rd_Party_camera_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856ofilmfrontmipirawindia_3rd_Party_camera_Capture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov8856ofilmfrontmipirawindia_Default_Capture_XTS.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856ofilmfrontmipirawindia_Default_Capture_XTS.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov8856ofilmfrontmipirawindia_EIS_Video_1080.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856ofilmfrontmipirawindia_EIS_Video_1080.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov8856ofilmfrontmipirawindia_EIS_Video_720.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856ofilmfrontmipirawindia_EIS_Video_720.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov8856ofilmfrontmipirawindia_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856ofilmfrontmipirawindia_Face_Capture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov8856ofilmfrontmipirawindia_MICamera_Panorama.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856ofilmfrontmipirawindia_MICamera_Panorama.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov8856ofilmfrontmipirawindia_MI_Bokeh_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856ofilmfrontmipirawindia_MI_Bokeh_Capture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov8856ofilmfrontmipirawindia_MI_HDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856ofilmfrontmipirawindia_MI_HDR_Capture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov8856ofilmfrontmipirawindia_QQ_Call.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856ofilmfrontmipirawindia_QQ_Call.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov8856ofilmfrontmipirawindia_QQ_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856ofilmfrontmipirawindia_QQ_Capture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov8856ofilmfrontmipirawindia_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856ofilmfrontmipirawindia_Scene_Capture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov8856ofilmfrontmipirawindia_Scene_Capture_4cell.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856ofilmfrontmipirawindia_Scene_Capture_4cell.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov8856ofilmfrontmipirawindia_Scene_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856ofilmfrontmipirawindia_Scene_Preview.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov8856ofilmfrontmipirawindia_TTPIC_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856ofilmfrontmipirawindia_TTPIC_Capture.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov8856ofilmfrontmipirawindia_Video_1080.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856ofilmfrontmipirawindia_Video_1080.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov8856ofilmfrontmipirawindia_Video_720.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856ofilmfrontmipirawindia_Video_720.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov8856ofilmfrontmipirawindia_Video_other.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856ofilmfrontmipirawindia_Video_other.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov8856ofilmfrontmipirawindia_Wechat_Call.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856ofilmfrontmipirawindia_Wechat_Call.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libCamera_ov8856ofilmfrontmipirawindia_Wechat_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856ofilmfrontmipirawindia_Wechat_Capture.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/libDefaultFpsActor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libDefaultFpsActor.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/libFrameRecord.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFrameRecord.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/libHEVCdec_sa.ca7.android.so:$(TARGET_COPY_OUT_VENDOR)/lib/libHEVCdec_sa.ca7.android.so \
@@ -1405,7 +1058,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/camellia/proprietary/vendor/lib/libion_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libion_mtk.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/libion_ulit.so:$(TARGET_COPY_OUT_VENDOR)/lib/libion_ulit.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/libipsec_ims_shr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libipsec_ims_shr.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libispcameraca.so:$(TARGET_COPY_OUT_VENDOR)/lib/libispcameraca.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/libjpeg-alpha-oal_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpeg-alpha-oal_vendor.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/libjpeg-alpha_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpeg-alpha_vendor.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/libladder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libladder.so \
@@ -1422,11 +1074,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/camellia/proprietary/vendor/lib/libmt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmt.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/libmtcloader.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtcloader.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/libmtkares.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkares.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libmtkcam.atmseventmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam.atmseventmgr.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libmtkcam.eventcallback.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam.eventcallback.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libmtkcam_debugutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_debugutils.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libmtkcam_stdutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_stdutils.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libmtkcam_ulog.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_ulog.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/libmtkcutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcutils.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/libmtkhardware_legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkhardware_legacy.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/libmtklimiter_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtklimiter_vendor.so \
@@ -1504,22 +1151,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/camellia/proprietary/vendor/lib/mt6833/libmtk_drvb.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6833/libmtk_drvb.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/mt6833/libpq_prot.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6833/libpq_prot.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/nfc_nci.st21nfc.st.so:$(TARGET_COPY_OUT_VENDOR)/lib/nfc_nci.st21nfc.st.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/ov02b10_aac_macro_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/ov02b10_aac_macro_mipi_raw_tuning.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/ov48b_aac_main_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/ov48b_aac_main_mipi_raw_tuning.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/ov48b_qtech_main_mipi_raw_india_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/ov48b_qtech_main_mipi_raw_india_tuning.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/ov48b_qtech_main_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/ov48b_qtech_main_mipi_raw_tuning.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/ov8856_aac_front_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/ov8856_aac_front_mipi_raw_tuning.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/ov8856_ofilm_front_mipi_raw_india_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/ov8856_ofilm_front_mipi_raw_india_tuning.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/ov8856_ofilm_front_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/ov8856_ofilm_front_mipi_raw_tuning.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/sensors.touch.detect.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.touch.detect.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/vendor.mediatek.hardware.apmonitor@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.apmonitor@2.0.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/vendor.mediatek.hardware.audio@6.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.audio@6.1.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/vendor.mediatek.hardware.audio@7.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.audio@7.1.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/vendor.mediatek.hardware.bluetooth.audio@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.bluetooth.audio@2.1.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/vendor.mediatek.hardware.bluetooth.audio@2.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.bluetooth.audio@2.2.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/vendor.mediatek.hardware.camera.atms@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.camera.atms@1.0.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/vendor.mediatek.hardware.camera.bgservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.camera.bgservice@1.0.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/vendor.mediatek.hardware.camera.bgservice@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.camera.bgservice@1.1.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/vendor.mediatek.hardware.keymaster_attestation@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.keymaster_attestation@1.0.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/vendor.mediatek.hardware.keymaster_attestation@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.keymaster_attestation@1.1.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/vendor.mediatek.hardware.mdmonitor@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mdmonitor@1.0.so \
