@@ -964,7 +964,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/hw/android.hardware.sensors@2.X-subhal-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.sensors@2.X-subhal-mediatek.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/hw/consumerir.camellia.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/consumerir.camellia.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/hw/consumerir.common.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/consumerir.common.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib64/hw/fingerprint.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.default.so \
+    vendor/xiaomi/camellia/proprietary/vendor/lib64/hw/fingerprint.mt6833.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.mt6833.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/hw/gatekeeper.beanpod.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.beanpod.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/hw/gf_fingerprint.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gf_fingerprint.default.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/hw/gps.mt6833.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gps.mt6833.so \
