@@ -6,13 +6,8 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/xiaomi/camellia
 
 PRODUCT_COPY_FILES += \
-    vendor/xiaomi/camellia/proprietary/product/etc/apns-conf.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/apns-conf.xml \
     vendor/xiaomi/camellia/proprietary/system/bin/vtservice:$(TARGET_COPY_OUT_SYSTEM)/bin/vtservice \
     vendor/xiaomi/camellia/proprietary/system/etc/init/init.vtservice.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/init.vtservice.rc \
-    vendor/xiaomi/camellia/proprietary/system/lib/libmtk_vt_wrapper.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmtk_vt_wrapper.so \
-    vendor/xiaomi/camellia/proprietary/system/lib/libsysenv_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsysenv_system.so \
-    vendor/xiaomi/camellia/proprietary/system/lib/libvcodec_cap.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libvcodec_cap.so \
-    vendor/xiaomi/camellia/proprietary/system/lib/libvcodec_capenc.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libvcodec_capenc.so \
     vendor/xiaomi/camellia/proprietary/system/lib64/libcomutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libcomutils.so \
     vendor/xiaomi/camellia/proprietary/system/lib64/libimsma.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libimsma.so \
     vendor/xiaomi/camellia/proprietary/system/lib64/libimsma_adapt.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libimsma_adapt.so \
@@ -20,36 +15,20 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/camellia/proprietary/system/lib64/libimsma_socketwrapper.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libimsma_socketwrapper.so \
     vendor/xiaomi/camellia/proprietary/system/lib64/libmtk_vt_service.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmtk_vt_service.so \
     vendor/xiaomi/camellia/proprietary/system/lib64/libmtk_vt_wrapper.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmtk_vt_wrapper.so \
+    vendor/xiaomi/camellia/proprietary/system/lib64/libmtkperf_client.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmtkperf_client.so \
     vendor/xiaomi/camellia/proprietary/system/lib64/libsignal.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsignal.so \
     vendor/xiaomi/camellia/proprietary/system/lib64/libsink.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsink.so \
     vendor/xiaomi/camellia/proprietary/system/lib64/libsource.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsource.so \
-    vendor/xiaomi/camellia/proprietary/system/lib64/libsysenv_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsysenv_system.so \
     vendor/xiaomi/camellia/proprietary/system/lib64/libvcodec_cap.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libvcodec_cap.so \
     vendor/xiaomi/camellia/proprietary/system/lib64/libvcodec_capenc.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libvcodec_capenc.so \
+    vendor/xiaomi/camellia/proprietary/system/lib64/libvsim-adaptor-client.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libvsim-adaptor-client.so \
     vendor/xiaomi/camellia/proprietary/system/lib64/libvt_avsync.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libvt_avsync.so \
     vendor/xiaomi/camellia/proprietary/system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.hotwordenrollment.common.util.xml \
     vendor/xiaomi/camellia/proprietary/system_ext/lib/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.videotelephony@1.0.so \
     vendor/xiaomi/camellia/proprietary/system_ext/lib64/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.videotelephony@1.0.so \
-    vendor/xiaomi/camellia/proprietary/vendor/bin/AgentTest:$(TARGET_COPY_OUT_VENDOR)/bin/AgentTest \
-    vendor/xiaomi/camellia/proprietary/vendor/bin/SoterProvisioningTool:$(TARGET_COPY_OUT_VENDOR)/bin/SoterProvisioningTool \
-    vendor/xiaomi/camellia/proprietary/vendor/bin/atcid:$(TARGET_COPY_OUT_VENDOR)/bin/atcid \
-    vendor/xiaomi/camellia/proprietary/vendor/bin/audiocmdservice_atci:$(TARGET_COPY_OUT_VENDOR)/bin/audiocmdservice_atci \
-    vendor/xiaomi/camellia/proprietary/vendor/bin/autobt:$(TARGET_COPY_OUT_VENDOR)/bin/autobt \
     vendor/xiaomi/camellia/proprietary/vendor/bin/bp_kmsetkey_ca:$(TARGET_COPY_OUT_VENDOR)/bin/bp_kmsetkey_ca \
     vendor/xiaomi/camellia/proprietary/vendor/bin/ccci_mdinit:$(TARGET_COPY_OUT_VENDOR)/bin/ccci_mdinit \
     vendor/xiaomi/camellia/proprietary/vendor/bin/ccci_rpcd:$(TARGET_COPY_OUT_VENDOR)/bin/ccci_rpcd \
-    vendor/xiaomi/camellia/proprietary/vendor/bin/chipinfo:$(TARGET_COPY_OUT_VENDOR)/bin/chipinfo \
-    vendor/xiaomi/camellia/proprietary/vendor/bin/dconfig:$(TARGET_COPY_OUT_VENDOR)/bin/dconfig \
-    vendor/xiaomi/camellia/proprietary/vendor/bin/dexecutor:$(TARGET_COPY_OUT_VENDOR)/bin/dexecutor \
-    vendor/xiaomi/camellia/proprietary/vendor/bin/displayf_bin:$(TARGET_COPY_OUT_VENDOR)/bin/displayf_bin \
-    vendor/xiaomi/camellia/proprietary/vendor/bin/dmc_core:$(TARGET_COPY_OUT_VENDOR)/bin/dmc_core \
-    vendor/xiaomi/camellia/proprietary/vendor/bin/doeapp-memtester:$(TARGET_COPY_OUT_VENDOR)/bin/doeapp-memtester \
-    vendor/xiaomi/camellia/proprietary/vendor/bin/doeapp-sat:$(TARGET_COPY_OUT_VENDOR)/bin/doeapp-sat \
-    vendor/xiaomi/camellia/proprietary/vendor/bin/dreport:$(TARGET_COPY_OUT_VENDOR)/bin/dreport \
-    vendor/xiaomi/camellia/proprietary/vendor/bin/dtc_vendor:$(TARGET_COPY_OUT_VENDOR)/bin/dtc_vendor \
-    vendor/xiaomi/camellia/proprietary/vendor/bin/em_hidl:$(TARGET_COPY_OUT_VENDOR)/bin/em_hidl \
-    vendor/xiaomi/camellia/proprietary/vendor/bin/factory:$(TARGET_COPY_OUT_VENDOR)/bin/factory \
-    vendor/xiaomi/camellia/proprietary/vendor/bin/factory_bin:$(TARGET_COPY_OUT_VENDOR)/bin/factory_bin \
     vendor/xiaomi/camellia/proprietary/vendor/bin/fuelgauged:$(TARGET_COPY_OUT_VENDOR)/bin/fuelgauged \
     vendor/xiaomi/camellia/proprietary/vendor/bin/fuelgauged_nvram:$(TARGET_COPY_OUT_VENDOR)/bin/fuelgauged_nvram \
     vendor/xiaomi/camellia/proprietary/vendor/bin/gsm0710muxd:$(TARGET_COPY_OUT_VENDOR)/bin/gsm0710muxd \
@@ -65,45 +44,20 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/camellia/proprietary/vendor/bin/hw/camerahalserver:$(TARGET_COPY_OUT_VENDOR)/bin/hw/camerahalserver \
     vendor/xiaomi/camellia/proprietary/vendor/bin/hw/mtkfusionrild:$(TARGET_COPY_OUT_VENDOR)/bin/hw/mtkfusionrild \
     vendor/xiaomi/camellia/proprietary/vendor/bin/hw/tetheroffloadservice:$(TARGET_COPY_OUT_VENDOR)/bin/hw/tetheroffloadservice \
-    vendor/xiaomi/camellia/proprietary/vendor/bin/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-service \
-    vendor/xiaomi/camellia/proprietary/vendor/bin/hw/vendor.mediatek.hardware.mmagent@1.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.mmagent@1.1-service \
     vendor/xiaomi/camellia/proprietary/vendor/bin/hw/vendor.mediatek.hardware.mms@1.6-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.mms@1.6-service \
+    vendor/xiaomi/camellia/proprietary/vendor/bin/hw/vendor.mediatek.hardware.mtkpower@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.mtkpower@1.0-service \
     vendor/xiaomi/camellia/proprietary/vendor/bin/hw/vendor.mediatek.hardware.nvram@1.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.nvram@1.1-service \
-    vendor/xiaomi/camellia/proprietary/vendor/bin/hw/vendor.mediatek.hardware.nwk_opt@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.nwk_opt@1.0-service \
     vendor/xiaomi/camellia/proprietary/vendor/bin/hw/vendor.mediatek.hardware.pq@2.2-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.pq@2.2-service \
-    vendor/xiaomi/camellia/proprietary/vendor/bin/hw/vendor.microtrust.hardware.soter@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.microtrust.hardware.soter@1.0-service \
     vendor/xiaomi/camellia/proprietary/vendor/bin/hw/vtservice_hidl:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vtservice_hidl \
-    vendor/xiaomi/camellia/proprietary/vendor/bin/initprop_bin:$(TARGET_COPY_OUT_VENDOR)/bin/initprop_bin \
-    vendor/xiaomi/camellia/proprietary/vendor/bin/ipsec_mon:$(TARGET_COPY_OUT_VENDOR)/bin/ipsec_mon \
-    vendor/xiaomi/camellia/proprietary/vendor/bin/iwlist:$(TARGET_COPY_OUT_VENDOR)/bin/iwlist \
-    vendor/xiaomi/camellia/proprietary/vendor/bin/jpegtool:$(TARGET_COPY_OUT_VENDOR)/bin/jpegtool \
-    vendor/xiaomi/camellia/proprietary/vendor/bin/key_client:$(TARGET_COPY_OUT_VENDOR)/bin/key_client \
-    vendor/xiaomi/camellia/proprietary/vendor/bin/keybox-check:$(TARGET_COPY_OUT_VENDOR)/bin/keybox-check \
-    vendor/xiaomi/camellia/proprietary/vendor/bin/lbs_hidl_service:$(TARGET_COPY_OUT_VENDOR)/bin/lbs_hidl_service \
     vendor/xiaomi/camellia/proprietary/vendor/bin/lib3a.ccu.ddr:$(TARGET_COPY_OUT_VENDOR)/bin/lib3a.ccu.ddr \
     vendor/xiaomi/camellia/proprietary/vendor/bin/lib3a.ccu.dm:$(TARGET_COPY_OUT_VENDOR)/bin/lib3a.ccu.dm \
     vendor/xiaomi/camellia/proprietary/vendor/bin/lib3a.ccu.pm:$(TARGET_COPY_OUT_VENDOR)/bin/lib3a.ccu.pm \
-    vendor/xiaomi/camellia/proprietary/vendor/bin/md_monitor:$(TARGET_COPY_OUT_VENDOR)/bin/md_monitor \
-    vendor/xiaomi/camellia/proprietary/vendor/bin/md_monitor_ctrl:$(TARGET_COPY_OUT_VENDOR)/bin/md_monitor_ctrl \
-    vendor/xiaomi/camellia/proprietary/vendor/bin/meta_tst:$(TARGET_COPY_OUT_VENDOR)/bin/meta_tst \
     vendor/xiaomi/camellia/proprietary/vendor/bin/mi_thermald:$(TARGET_COPY_OUT_VENDOR)/bin/mi_thermald \
     vendor/xiaomi/camellia/proprietary/vendor/bin/mnld:$(TARGET_COPY_OUT_VENDOR)/bin/mnld \
-    vendor/xiaomi/camellia/proprietary/vendor/bin/mrdump_tool:$(TARGET_COPY_OUT_VENDOR)/bin/mrdump_tool \
-    vendor/xiaomi/camellia/proprietary/vendor/bin/mt6660_calibration:$(TARGET_COPY_OUT_VENDOR)/bin/mt6660_calibration \
     vendor/xiaomi/camellia/proprietary/vendor/bin/mtk_agpsd:$(TARGET_COPY_OUT_VENDOR)/bin/mtk_agpsd \
-    vendor/xiaomi/camellia/proprietary/vendor/bin/mtk_pkm_service:$(TARGET_COPY_OUT_VENDOR)/bin/mtk_pkm_service \
-    vendor/xiaomi/camellia/proprietary/vendor/bin/mtk_plpath_utils_ota:$(TARGET_COPY_OUT_VENDOR)/bin/mtk_plpath_utils_ota \
-    vendor/xiaomi/camellia/proprietary/vendor/bin/muxreport:$(TARGET_COPY_OUT_VENDOR)/bin/muxreport \
     vendor/xiaomi/camellia/proprietary/vendor/bin/netdagent:$(TARGET_COPY_OUT_VENDOR)/bin/netdagent \
-    vendor/xiaomi/camellia/proprietary/vendor/bin/netdc:$(TARGET_COPY_OUT_VENDOR)/bin/netdc \
     vendor/xiaomi/camellia/proprietary/vendor/bin/nvram_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/nvram_daemon \
     vendor/xiaomi/camellia/proprietary/vendor/bin/rcs_volte_stack:$(TARGET_COPY_OUT_VENDOR)/bin/rcs_volte_stack \
-    vendor/xiaomi/camellia/proprietary/vendor/bin/recordevent:$(TARGET_COPY_OUT_VENDOR)/bin/recordevent \
-    vendor/xiaomi/camellia/proprietary/vendor/bin/replayevent:$(TARGET_COPY_OUT_VENDOR)/bin/replayevent \
-    vendor/xiaomi/camellia/proprietary/vendor/bin/rt5512_calibration:$(TARGET_COPY_OUT_VENDOR)/bin/rt5512_calibration \
-    vendor/xiaomi/camellia/proprietary/vendor/bin/rttv:$(TARGET_COPY_OUT_VENDOR)/bin/rttv \
-    vendor/xiaomi/camellia/proprietary/vendor/bin/stfactorydemo-vendor:$(TARGET_COPY_OUT_VENDOR)/bin/stfactorydemo-vendor \
-    vendor/xiaomi/camellia/proprietary/vendor/bin/stp_dump3:$(TARGET_COPY_OUT_VENDOR)/bin/stp_dump3 \
     vendor/xiaomi/camellia/proprietary/vendor/bin/teei_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/teei_daemon \
     vendor/xiaomi/camellia/proprietary/vendor/bin/thermal:$(TARGET_COPY_OUT_VENDOR)/bin/thermal \
     vendor/xiaomi/camellia/proprietary/vendor/bin/thermal_manager:$(TARGET_COPY_OUT_VENDOR)/bin/thermal_manager \
@@ -111,19 +65,226 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/camellia/proprietary/vendor/bin/volte_clientapi_ua:$(TARGET_COPY_OUT_VENDOR)/bin/volte_clientapi_ua \
     vendor/xiaomi/camellia/proprietary/vendor/bin/volte_rcs_ua:$(TARGET_COPY_OUT_VENDOR)/bin/volte_rcs_ua \
     vendor/xiaomi/camellia/proprietary/vendor/bin/vpud:$(TARGET_COPY_OUT_VENDOR)/bin/vpud \
-    vendor/xiaomi/camellia/proprietary/vendor/bin/vsimd:$(TARGET_COPY_OUT_VENDOR)/bin/vsimd \
     vendor/xiaomi/camellia/proprietary/vendor/bin/wlan_assistant:$(TARGET_COPY_OUT_VENDOR)/bin/wlan_assistant \
     vendor/xiaomi/camellia/proprietary/vendor/bin/wmt_launcher:$(TARGET_COPY_OUT_VENDOR)/bin/wmt_launcher \
     vendor/xiaomi/camellia/proprietary/vendor/bin/wmt_loader:$(TARGET_COPY_OUT_VENDOR)/bin/wmt_loader \
     vendor/xiaomi/camellia/proprietary/vendor/etc/.tp/thermal.conf:$(TARGET_COPY_OUT_VENDOR)/etc/.tp/thermal.conf \
     vendor/xiaomi/camellia/proprietary/vendor/etc/.tp/thermal.off.conf:$(TARGET_COPY_OUT_VENDOR)/etc/.tp/thermal.off.conf \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/AbnormalDisplayLog_dynamic.xml:$(TARGET_COPY_OUT_VENDOR)/etc/AbnormalDisplayLog_dynamic.xml \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/AudioLog_dynamic.xml:$(TARGET_COPY_OUT_VENDOR)/etc/AudioLog_dynamic.xml \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/MNL_Config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/MNL_Config.xml \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/SVIConfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/SVIConfig.xml \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/VideoLog_dynamic.xml:$(TARGET_COPY_OUT_VENDOR)/etc/VideoLog_dynamic.xml \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/apdb/APDB_MT6853_S01__W2236:$(TARGET_COPY_OUT_VENDOR)/etc/apdb/APDB_MT6853_S01__W2236 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/apdb/APDB_MT6853_S01__W2236_ENUM:$(TARGET_COPY_OUT_VENDOR)/etc/apdb/APDB_MT6853_S01__W2236_ENUM \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/AudioParamOptions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/AudioParamOptions.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/AudioParamOptions_vext.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/AudioParamOptions_vext.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/BtInfo_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/BtInfo_AudioParam.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/BtInfo_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/BtInfo_ParamUnitDesc.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/CRSVolUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/CRSVolUI_AudioParam.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/CRSVolUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/CRSVolUI_ParamUnitDesc.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/CRSVol_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/CRSVol_AudioParam.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/CRSVol_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/CRSVol_ParamUnitDesc.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/HpImpedance_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/HpImpedance_AudioParam.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/HpImpedance_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/HpImpedance_ParamUnitDesc.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/MicInfo_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/MicInfo_AudioParam.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/MicInfo_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/MicInfo_ParamUnitDesc.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/PlaybackACF_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackACF_AudioParam.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/PlaybackACF_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackACF_ParamUnitDesc.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/PlaybackDRC_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackDRC_AudioParam.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/PlaybackDRC_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackDRC_ParamUnitDesc.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/PlaybackHCF_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackHCF_AudioParam.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/PlaybackHCF_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackHCF_ParamUnitDesc.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/PlaybackVolAna_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackVolAna_AudioParam.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/PlaybackVolAna_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackVolAna_ParamUnitDesc.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/PlaybackVolDigi_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackVolDigi_AudioParam.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/PlaybackVolDigi_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackVolDigi_ParamUnitDesc.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/PlaybackVolUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackVolUI_AudioParam.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/PlaybackVolUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackVolUI_ParamUnitDesc.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/Playback_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Playback_AudioParam.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/Playback_ParamTreeView.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Playback_ParamTreeView.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/Playback_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Playback_ParamUnitDesc.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/RecordDMNR_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RecordDMNR_AudioParam.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/RecordDMNR_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RecordDMNR_ParamUnitDesc.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/RecordFIR_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RecordFIR_AudioParam.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/RecordFIR_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RecordFIR_ParamUnitDesc.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/RecordUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RecordUI_AudioParam.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/RecordUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RecordUI_ParamUnitDesc.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/RecordVolUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RecordVolUI_AudioParam.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/RecordVolUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RecordVolUI_ParamUnitDesc.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/RecordVol_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RecordVol_AudioParam.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/RecordVol_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RecordVol_ParamUnitDesc.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/Record_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Record_AudioParam.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/Record_ParamTreeView.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Record_ParamTreeView.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/Record_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Record_ParamUnitDesc.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/RingbackVolUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RingbackVolUI_AudioParam.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/RingbackVolUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RingbackVolUI_ParamUnitDesc.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/RingbackVol_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RingbackVol_AudioParam.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/RingbackVol_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RingbackVol_ParamUnitDesc.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/SmartPa_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SmartPa_AudioParam.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/SmartPa_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SmartPa_ParamUnitDesc.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/SoundEnhancement_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SoundEnhancement_AudioParam.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/SoundEnhancement_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SoundEnhancement_ParamUnitDesc.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/SpeechDMNR_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechDMNR_AudioParam.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/SpeechDMNR_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechDMNR_ParamUnitDesc.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/SpeechEchoRef_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechEchoRef_AudioParam.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/SpeechEchoRef_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechEchoRef_ParamUnitDesc.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/SpeechGeneral_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechGeneral_AudioParam.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/SpeechGeneral_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechGeneral_ParamUnitDesc.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/SpeechMagiClarity_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechMagiClarity_AudioParam.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/SpeechMagiClarity_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechMagiClarity_ParamUnitDesc.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/SpeechNetwork_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechNetwork_AudioParam.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/SpeechNetwork_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechNetwork_ParamUnitDesc.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/SpeechUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechUI_AudioParam.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/SpeechUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechUI_ParamUnitDesc.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/SpeechVolUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechVolUI_AudioParam.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/SpeechVolUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechVolUI_ParamUnitDesc.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/SpeechVol_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechVol_AudioParam.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/SpeechVol_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechVol_ParamUnitDesc.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/Speech_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Speech_AudioParam.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/Speech_ParamTreeView.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Speech_ParamTreeView.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/Speech_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Speech_ParamUnitDesc.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/USBCall_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/USBCall_AudioParam.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/USBCall_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/USBCall_ParamUnitDesc.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/USBDevice_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/USBDevice_AudioParam.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/USBDevice_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/USBDevice_ParamUnitDesc.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/Ultrasound_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Ultrasound_AudioParam.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/Ultrasound_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Ultrasound_ParamUnitDesc.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/UplinkConfiguration_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/UplinkConfiguration_AudioParam.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/UplinkConfiguration_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/UplinkConfiguration_ParamUnitDesc.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/VoIPDMNR_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPDMNR_AudioParam.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/VoIPDMNR_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPDMNR_ParamUnitDesc.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/VoIPGeneral_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPGeneral_AudioParam.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/VoIPGeneral_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPGeneral_ParamUnitDesc.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/VoIPUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPUI_AudioParam.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/VoIPUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPUI_ParamUnitDesc.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/VoIPVolUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPVolUI_AudioParam.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/VoIPVolUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPVolUI_ParamUnitDesc.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/VoIPVol_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPVol_AudioParam.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/VoIPVol_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPVol_ParamUnitDesc.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/VoIP_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIP_AudioParam.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/VoIP_ParamTreeView.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIP_ParamTreeView.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/VoIP_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIP_ParamUnitDesc.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/VoIPv2DMNR_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPv2DMNR_AudioParam.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/VoIPv2DMNR_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPv2DMNR_ParamUnitDesc.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/VoIPv2General_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPv2General_AudioParam.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/VoIPv2General_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPv2General_ParamUnitDesc.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/VoIPv2UI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPv2UI_AudioParam.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/VoIPv2UI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPv2UI_ParamUnitDesc.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/VoIPv2_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPv2_AudioParam.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/VoIPv2_ParamTreeView.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPv2_ParamTreeView.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/VoIPv2_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPv2_ParamUnitDesc.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/VoWDspAec_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoWDspAec_AudioParam.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/VoWDspAec_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoWDspAec_ParamUnitDesc.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/VoWEngineFeature_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoWEngineFeature_AudioParam.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/VoWEngineFeature_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoWEngineFeature_ParamUnitDesc.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/VoWHwVad_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoWHwVad_AudioParam.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/VoWHwVad_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoWHwVad_ParamUnitDesc.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/VoWMicSetting_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoWMicSetting_AudioParam.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/VoWMicSetting_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoWMicSetting_ParamUnitDesc.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/VoWVoiceCommand_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoWVoiceCommand_AudioParam.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/VoWVoiceCommand_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoWVoiceCommand_ParamUnitDesc.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/VolumeGainMapUL_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VolumeGainMapUL_AudioParam.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/VolumeGainMapUL_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VolumeGainMapUL_ParamUnitDesc.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/VolumeGainMap_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VolumeGainMap_AudioParam.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/VolumeGainMap_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VolumeGainMap_ParamUnitDesc.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/Volume_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Volume_AudioParam.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param/Volume_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Volume_ParamUnitDesc.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param_global/AudioParamOptions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/AudioParamOptions.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param_global/AudioParamOptions_vext.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/AudioParamOptions_vext.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param_global/BtInfo_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/BtInfo_AudioParam.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param_global/BtInfo_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/BtInfo_ParamUnitDesc.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param_global/HpImpedance_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/HpImpedance_AudioParam.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param_global/HpImpedance_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/HpImpedance_ParamUnitDesc.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param_global/MicInfo_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/MicInfo_AudioParam.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param_global/MicInfo_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/MicInfo_ParamUnitDesc.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param_global/PlaybackACF_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/PlaybackACF_AudioParam.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param_global/PlaybackACF_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/PlaybackACF_ParamUnitDesc.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param_global/PlaybackDRC_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/PlaybackDRC_AudioParam.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param_global/PlaybackDRC_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/PlaybackDRC_ParamUnitDesc.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param_global/PlaybackHCF_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/PlaybackHCF_AudioParam.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param_global/PlaybackHCF_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/PlaybackHCF_ParamUnitDesc.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param_global/PlaybackVolAna_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/PlaybackVolAna_AudioParam.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param_global/PlaybackVolAna_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/PlaybackVolAna_ParamUnitDesc.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param_global/PlaybackVolDigi_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/PlaybackVolDigi_AudioParam.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param_global/PlaybackVolDigi_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/PlaybackVolDigi_ParamUnitDesc.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param_global/PlaybackVolUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/PlaybackVolUI_AudioParam.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param_global/PlaybackVolUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/PlaybackVolUI_ParamUnitDesc.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param_global/Playback_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/Playback_AudioParam.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param_global/Playback_ParamTreeView.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/Playback_ParamTreeView.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param_global/Playback_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/Playback_ParamUnitDesc.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param_global/RecordDMNR_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/RecordDMNR_AudioParam.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param_global/RecordDMNR_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/RecordDMNR_ParamUnitDesc.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param_global/RecordFIR_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/RecordFIR_AudioParam.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param_global/RecordFIR_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/RecordFIR_ParamUnitDesc.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param_global/RecordUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/RecordUI_AudioParam.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param_global/RecordUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/RecordUI_ParamUnitDesc.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param_global/RecordVolUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/RecordVolUI_AudioParam.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param_global/RecordVolUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/RecordVolUI_ParamUnitDesc.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param_global/RecordVol_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/RecordVol_AudioParam.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param_global/RecordVol_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/RecordVol_ParamUnitDesc.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param_global/Record_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/Record_AudioParam.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param_global/Record_ParamTreeView.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/Record_ParamTreeView.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param_global/Record_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/Record_ParamUnitDesc.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param_global/RingbackVolUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/RingbackVolUI_AudioParam.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param_global/RingbackVolUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/RingbackVolUI_ParamUnitDesc.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param_global/RingbackVol_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/RingbackVol_AudioParam.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param_global/RingbackVol_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/RingbackVol_ParamUnitDesc.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param_global/SoundEnhancement_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/SoundEnhancement_AudioParam.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param_global/SoundEnhancement_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/SoundEnhancement_ParamUnitDesc.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param_global/SpeechDMNR_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/SpeechDMNR_AudioParam.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param_global/SpeechDMNR_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/SpeechDMNR_ParamUnitDesc.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param_global/SpeechEchoRef_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/SpeechEchoRef_AudioParam.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param_global/SpeechEchoRef_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/SpeechEchoRef_ParamUnitDesc.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param_global/SpeechGeneral_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/SpeechGeneral_AudioParam.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param_global/SpeechGeneral_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/SpeechGeneral_ParamUnitDesc.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param_global/SpeechMagiClarity_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/SpeechMagiClarity_AudioParam.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param_global/SpeechMagiClarity_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/SpeechMagiClarity_ParamUnitDesc.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param_global/SpeechNetwork_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/SpeechNetwork_AudioParam.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param_global/SpeechNetwork_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/SpeechNetwork_ParamUnitDesc.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param_global/SpeechUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/SpeechUI_AudioParam.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param_global/SpeechUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/SpeechUI_ParamUnitDesc.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param_global/SpeechVolUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/SpeechVolUI_AudioParam.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param_global/SpeechVolUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/SpeechVolUI_ParamUnitDesc.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param_global/SpeechVol_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/SpeechVol_AudioParam.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param_global/SpeechVol_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/SpeechVol_ParamUnitDesc.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param_global/Speech_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/Speech_AudioParam.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param_global/Speech_ParamTreeView.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/Speech_ParamTreeView.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param_global/Speech_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/Speech_ParamUnitDesc.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param_global/USBCall_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/USBCall_AudioParam.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param_global/USBCall_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/USBCall_ParamUnitDesc.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param_global/USBDevice_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/USBDevice_AudioParam.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param_global/USBDevice_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/USBDevice_ParamUnitDesc.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param_global/UplinkConfiguration_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/UplinkConfiguration_AudioParam.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param_global/UplinkConfiguration_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/UplinkConfiguration_ParamUnitDesc.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param_global/VoIPDMNR_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/VoIPDMNR_AudioParam.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param_global/VoIPDMNR_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/VoIPDMNR_ParamUnitDesc.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param_global/VoIPGeneral_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/VoIPGeneral_AudioParam.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param_global/VoIPGeneral_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/VoIPGeneral_ParamUnitDesc.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param_global/VoIPUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/VoIPUI_AudioParam.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param_global/VoIPUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/VoIPUI_ParamUnitDesc.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param_global/VoIPVolUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/VoIPVolUI_AudioParam.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param_global/VoIPVolUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/VoIPVolUI_ParamUnitDesc.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param_global/VoIPVol_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/VoIPVol_AudioParam.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param_global/VoIPVol_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/VoIPVol_ParamUnitDesc.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param_global/VoIP_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/VoIP_AudioParam.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param_global/VoIP_ParamTreeView.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/VoIP_ParamTreeView.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param_global/VoIP_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/VoIP_ParamUnitDesc.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param_global/VoIPv2DMNR_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/VoIPv2DMNR_AudioParam.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param_global/VoIPv2DMNR_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/VoIPv2DMNR_ParamUnitDesc.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param_global/VoIPv2General_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/VoIPv2General_AudioParam.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param_global/VoIPv2General_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/VoIPv2General_ParamUnitDesc.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param_global/VoIPv2UI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/VoIPv2UI_AudioParam.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param_global/VoIPv2UI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/VoIPv2UI_ParamUnitDesc.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param_global/VoIPv2_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/VoIPv2_AudioParam.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param_global/VoIPv2_ParamTreeView.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/VoIPv2_ParamTreeView.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param_global/VoIPv2_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/VoIPv2_ParamUnitDesc.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param_global/VoWDspAec_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/VoWDspAec_AudioParam.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param_global/VoWDspAec_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/VoWDspAec_ParamUnitDesc.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param_global/VoWEngineFeature_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/VoWEngineFeature_AudioParam.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param_global/VoWEngineFeature_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/VoWEngineFeature_ParamUnitDesc.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param_global/VoWHwVad_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/VoWHwVad_AudioParam.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param_global/VoWHwVad_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/VoWHwVad_ParamUnitDesc.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param_global/VoWVoiceCommand_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/VoWVoiceCommand_AudioParam.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param_global/VolumeGainMapUL_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/VolumeGainMapUL_AudioParam.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param_global/VolumeGainMapUL_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/VolumeGainMapUL_ParamUnitDesc.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param_global/VolumeGainMap_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/VolumeGainMap_AudioParam.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param_global/VolumeGainMap_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/VolumeGainMap_ParamUnitDesc.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param_global/Volume_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/Volume_AudioParam.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/audio_param_global/Volume_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/Volume_ParamUnitDesc.xml \
     vendor/xiaomi/camellia/proprietary/vendor/etc/camera/CFR_para_Macro_i.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/CFR_para_Macro_i.bin \
     vendor/xiaomi/camellia/proprietary/vendor/etc/camera/CFR_para_Macro_ii.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/CFR_para_Macro_ii.bin \
     vendor/xiaomi/camellia/proprietary/vendor/etc/camera/CFR_para_Wide_H_i.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/CFR_para_Wide_H_i.bin \
@@ -146,8 +307,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/camellia/proprietary/vendor/etc/ecc_list_OP20.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP20.xml \
     vendor/xiaomi/camellia/proprietary/vendor/etc/ecc_list_OP236.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP236.xml \
     vendor/xiaomi/camellia/proprietary/vendor/etc/ecc_list_preference.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_preference.xml \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/factory.ini:$(TARGET_COPY_OUT_VENDOR)/etc/factory.ini \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/fstb.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/fstb.cfg \
     vendor/xiaomi/camellia/proprietary/vendor/etc/gnss/agps_profiles_conf2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/agps_profiles_conf2.xml \
     vendor/xiaomi/camellia/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_ATnT_Mexico.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_ATnT_Mexico.xml \
     vendor/xiaomi/camellia/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_ATnT_US.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_ATnT_US.xml \
@@ -171,12 +330,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/camellia/proprietary/vendor/etc/init/android.hardware.media.c2@1.2-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.media.c2@1.2-mediatek.rc \
     vendor/xiaomi/camellia/proprietary/vendor/etc/init/android.hardware.secure_element@1.2-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.secure_element@1.2-service-mediatek.rc \
     vendor/xiaomi/camellia/proprietary/vendor/etc/init/android.hardware.usb@1.2-service-mediatekv2.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.usb@1.2-service-mediatekv2.rc \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/init/atcid.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/atcid.rc \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/init/audiocmdservice_atci.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/audiocmdservice_atci.rc \
     vendor/xiaomi/camellia/proprietary/vendor/etc/init/camerahalserver.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/camerahalserver.rc \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/init/chipinfo_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/chipinfo_init.rc \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/init/dmc_core.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dmc_core.rc \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/init/em_hidl_user.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/em_hidl_user.rc \
     vendor/xiaomi/camellia/proprietary/vendor/etc/init/fuelgauged_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fuelgauged_init.rc \
     vendor/xiaomi/camellia/proprietary/vendor/etc/init/fuelgauged_nvram_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fuelgauged_nvram_init.rc \
     vendor/xiaomi/camellia/proprietary/vendor/etc/init/gsm0710muxd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/gsm0710muxd.rc \
@@ -185,7 +339,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/camellia/proprietary/vendor/etc/init/init.cccirpcd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.cccirpcd.rc \
     vendor/xiaomi/camellia/proprietary/vendor/etc/init/init.connfem.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.connfem.rc \
     vendor/xiaomi/camellia/proprietary/vendor/etc/init/init.fmradio_drv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.fmradio_drv.rc \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/init/init.fpsgo.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.fpsgo.rc \
     vendor/xiaomi/camellia/proprietary/vendor/etc/init/init.gps_drv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.gps_drv.rc \
     vendor/xiaomi/camellia/proprietary/vendor/etc/init/init.thermal.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.thermal.rc \
     vendor/xiaomi/camellia/proprietary/vendor/etc/init/init.thermal_manager.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.thermal_manager.rc \
@@ -193,379 +346,38 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/camellia/proprietary/vendor/etc/init/init.vtservice_hidl.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vtservice_hidl.rc \
     vendor/xiaomi/camellia/proprietary/vendor/etc/init/init.wlan_drv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.wlan_drv.rc \
     vendor/xiaomi/camellia/proprietary/vendor/etc/init/init.wmt_drv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.wmt_drv.rc \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/init/ipsec_mon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ipsec_mon.rc \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/init/lbs_hidl_service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/lbs_hidl_service.rc \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/init/md_monitor.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/md_monitor.rc \
     vendor/xiaomi/camellia/proprietary/vendor/etc/init/memtrack-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/memtrack-mediatek.rc \
     vendor/xiaomi/camellia/proprietary/vendor/etc/init/microtrust.bp_kmsetkey_ca.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/microtrust.bp_kmsetkey_ca.rc \
     vendor/xiaomi/camellia/proprietary/vendor/etc/init/microtrust.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/microtrust.rc \
     vendor/xiaomi/camellia/proprietary/vendor/etc/init/mtk_agpsd_p.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/mtk_agpsd_p.rc \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/init/mtk_pkm_service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/mtk_pkm_service.rc \
     vendor/xiaomi/camellia/proprietary/vendor/etc/init/mtkrild.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/mtkrild.rc \
     vendor/xiaomi/camellia/proprietary/vendor/etc/init/muxreport.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/muxreport.rc \
     vendor/xiaomi/camellia/proprietary/vendor/etc/init/netdagent.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/netdagent.rc \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/init/networksetting.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/networksetting.rc \
     vendor/xiaomi/camellia/proprietary/vendor/etc/init/nvram_daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/nvram_daemon.rc \
     vendor/xiaomi/camellia/proprietary/vendor/etc/init/tetheroffloadservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/tetheroffloadservice.rc \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/init/vendor.mediatek.hardware.keymaster_attestation@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.keymaster_attestation@1.1-service.rc \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/init/vendor.mediatek.hardware.mmagent@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.mmagent@1.1-service.rc \
     vendor/xiaomi/camellia/proprietary/vendor/etc/init/vendor.mediatek.hardware.mms@1.6-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.mms@1.6-service.rc \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.mtkpower@1.0-init.rc \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.mtkpower@1.0-service.rc \
     vendor/xiaomi/camellia/proprietary/vendor/etc/init/vendor.mediatek.hardware.nvram@1.1-sevice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.nvram@1.1-sevice.rc \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/init/vendor.mediatek.hardware.nwk_opt@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.nwk_opt@1.0-service.rc \
     vendor/xiaomi/camellia/proprietary/vendor/etc/init/vendor.mediatek.hardware.pq@2.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.pq@2.2-service.rc \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/init/vendor.microtrust.hardware.soter@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.microtrust.hardware.soter@1.0-service.rc \
     vendor/xiaomi/camellia/proprietary/vendor/etc/init/volte_clientapi_ua.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/volte_clientapi_ua.rc \
     vendor/xiaomi/camellia/proprietary/vendor/etc/init/volte_rcs_ua.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/volte_rcs_ua.rc \
     vendor/xiaomi/camellia/proprietary/vendor/etc/init/vpud.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vpud.rc \
     vendor/xiaomi/camellia/proprietary/vendor/etc/init/wlan_assistant.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wlan_assistant.rc \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/md/cacerts/ikev2/DigiCertGlobalRootCA.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/DigiCertGlobalRootCA.crt \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/md/cacerts/ikev2/DigiCertGlobalRootG2.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/DigiCertGlobalRootG2.crt \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/md/cacerts/ikev2/DigiCertGlobalRootG3.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/DigiCertGlobalRootG3.crt \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/md/cacerts/ikev2/Entrust.net_Certification_Authority_2048.cer:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/Entrust.net_Certification_Authority_2048.cer \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/md/cacerts/ikev2/EntrustRootCertificationAuthorityG2_root.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/EntrustRootCertificationAuthorityG2_root.crt \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/md/cacerts/ikev2/GeoTrust_PCA_G3_Root.der:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/GeoTrust_PCA_G3_Root.der \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/md/cacerts/ikev2/GeoTrust_Primary_CA.der:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/GeoTrust_Primary_CA.der \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/md/cacerts/ikev2/GeoTrust_Primary_CA_G2_ECC.der:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/GeoTrust_Primary_CA_G2_ECC.der \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/md/cacerts/ikev2/GlobalSign_root_CA.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/GlobalSign_root_CA.crt \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/md/cacerts/ikev2/LibertyGlobalEnterprise-Root-CA-G1.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/LibertyGlobalEnterprise-Root-CA-G1.crt \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/md/cacerts/ikev2/Root-R3.cer:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/Root-R3.cer \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/md/cacerts/ikev2/Root_CA_1003.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/Root_CA_1003.crt \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/md/cacerts/ikev2/VeriSignClass3G4.der:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/VeriSignClass3G4.der \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/md/cacerts/ikev2/VeriSignClass3G5.der:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/VeriSignClass3G5.der \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/md/cacerts/ikev2/VeriSignUniversalRootCertification.der:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/VeriSignUniversalRootCertification.der \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/md/cacerts/ikev2/thawte.der:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/thawte.der \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/md/cacerts/tls/AAACertificateServices.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/AAACertificateServices.crt \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/md/cacerts/tls/CertumCA.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/CertumCA.crt \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/md/cacerts/tls/CertumOrganizationValidationCASHA2.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/CertumOrganizationValidationCASHA2.crt \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/md/cacerts/tls/CertumTrustedNetworkCA.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/CertumTrustedNetworkCA.crt \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/md/cacerts/tls/CyberTrustJapanPublicCAG3.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/CyberTrustJapanPublicCAG3.crt \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/md/cacerts/tls/DigiCertGlobalRootCA.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/DigiCertGlobalRootCA.crt \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/md/cacerts/tls/DigiCertSHA2SecureServerCA.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/DigiCertSHA2SecureServerCA.crt \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/md/cacerts/tls/DomenySslDvCertificationAuthority.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/DomenySslDvCertificationAuthority.crt \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/md/cacerts/tls/EntrustCertificationAuthorityL1K.cer:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/EntrustCertificationAuthorityL1K.cer \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/md/cacerts/tls/EntrustRootCertificationAuthority.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/EntrustRootCertificationAuthority.crt \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/md/cacerts/tls/EntrustRootCertificationAuthorityG2.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/EntrustRootCertificationAuthorityG2.crt \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/md/cacerts/tls/GoDaddyRootCertificateAuthorityG2.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/GoDaddyRootCertificateAuthorityG2.crt \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/md/cacerts/tls/GoDaddySecureCertificateAuthorityG2.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/GoDaddySecureCertificateAuthorityG2.crt \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/md/cacerts/tls/KPN_BV_PKIoverheid_Organisatie_Server_CA-G3_2019.cer:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/KPN_BV_PKIoverheid_Organisatie_Server_CA-G3_2019.cer \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/md/cacerts/tls/StaatDerNederlanderEVRootCA.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/StaatDerNederlanderEVRootCA.crt \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/md/cacerts/tls/StaatderNederlandenOrganisatieServicesCA-G3.cer:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/StaatderNederlandenOrganisatieServicesCA-G3.cer \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/md/cacerts/tls/StaatderNederlandenRootCA-G3.cer:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/StaatderNederlandenRootCA-G3.cer \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/md/cacerts/tls/USERTrustRSACertificationAuthority.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/USERTrustRSACertificationAuthority.crt \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_MD_OTA_CONFIG.ini:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_MD_OTA_CONFIG.ini \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_GENERAL.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_GENERAL.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_1.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_1.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_10.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_10.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_100.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_100.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_1001.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_1001.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_1002.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_1002.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_1003.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_1003.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_1004.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_1004.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_101.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_101.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_102.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_102.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_103.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_103.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_104.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_104.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_105.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_105.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_106.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_106.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_107.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_107.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_108.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_108.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_109.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_109.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_11.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_11.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_110.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_110.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_111.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_111.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_112.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_112.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_113.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_113.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_114.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_114.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_115.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_115.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_116.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_116.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_117.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_117.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_118.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_118.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_119.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_119.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_12.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_12.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_120.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_120.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_121.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_121.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_122.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_122.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_123.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_123.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_124.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_124.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_125.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_125.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_126.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_126.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_127.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_127.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_128.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_128.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_129.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_129.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_130.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_130.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_131.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_131.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_132.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_132.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_133.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_133.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_134.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_134.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_135.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_135.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_136.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_136.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_137.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_137.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_138.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_138.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_139.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_139.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_140.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_140.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_141.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_141.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_143.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_143.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_144.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_144.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_145.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_145.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_146.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_146.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_147.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_147.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_148.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_148.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_149.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_149.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_15.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_15.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_150.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_150.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_151.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_151.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_152.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_152.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_153.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_153.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_154.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_154.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_155.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_155.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_156.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_156.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_157.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_157.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_158.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_158.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_159.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_159.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_16.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_16.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_160.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_160.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_161.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_161.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_162.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_162.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_163.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_163.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_164.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_164.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_165.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_165.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_166.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_166.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_167.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_167.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_168.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_168.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_169.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_169.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_17.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_17.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_170.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_170.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_171.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_171.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_172.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_172.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_173.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_173.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_174.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_174.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_175.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_175.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_176.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_176.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_177.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_177.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_178.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_178.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_179.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_179.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_18.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_18.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_180.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_180.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_181.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_181.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_182.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_182.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_183.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_183.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_184.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_184.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_185.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_185.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_186.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_186.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_187.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_187.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_188.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_188.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_189.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_189.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_19.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_19.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_190.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_190.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_191.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_191.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_192.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_192.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_193.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_193.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_194.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_194.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_195.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_195.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_196.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_196.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_197.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_197.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_198.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_198.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_199.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_199.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_2.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_2.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_20.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_20.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_200.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_200.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_201.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_201.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_202.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_202.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_203.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_203.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_204.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_204.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_205.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_205.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_206.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_206.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_207.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_207.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_208.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_208.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_209.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_209.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_210.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_210.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_211.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_211.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_212.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_212.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_213.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_213.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_222.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_222.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_223.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_223.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_224.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_224.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_225.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_225.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_3.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_3.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_5.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_5.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_50.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_50.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_6.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_6.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_7.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_7.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_8.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_8.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_9.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_9.mcfopota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OTA.mcfota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OTA.mcfota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OTA_CERT_COMMON.mcfota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OTA_CERT_COMMON.mcfota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OTA_CMCC.mcfota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OTA_CMCC.mcfota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OTA_CT.mcfota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OTA_CT.mcfota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OTA_CU.mcfota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OTA_CU.mcfota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OTA_REL10.mcfota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OTA_REL10.mcfota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mdota/MTK_OTA_REL11.mcfota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OTA_REL11.mcfota \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/mpe.conf:$(TARGET_COPY_OUT_VENDOR)/etc/mpe.conf \
     vendor/xiaomi/camellia/proprietary/vendor/etc/mtk_omx_core.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/mtk_omx_core.cfg \
     vendor/xiaomi/camellia/proprietary/vendor/etc/mtk_platform_codecs_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mtk_platform_codecs_config.xml \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/partition_permission.sh:$(TARGET_COPY_OUT_VENDOR)/etc/partition_permission.sh \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/permissions/com.fingerprints.extension.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.fingerprints.extension.xml \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/permissions/com.mediatek.hardware.vow_dsp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.mediatek.hardware.vow_dsp.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/power_app_cfg.xml:$(TARGET_COPY_OUT_VENDOR)/etc/power_app_cfg.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/powercontable.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powercontable.xml \
+    vendor/xiaomi/camellia/proprietary/vendor/etc/powerscntbl.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerscntbl.xml \
     vendor/xiaomi/camellia/proprietary/vendor/etc/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/screen_light.xml:$(TARGET_COPY_OUT_VENDOR)/etc/screen_light.xml \
     vendor/xiaomi/camellia/proprietary/vendor/etc/seccomp_policy/android.hardware.media.c2@1.2-extended-seccomp-policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/android.hardware.media.c2@1.2-extended-seccomp-policy \
     vendor/xiaomi/camellia/proprietary/vendor/etc/seccomp_policy/android.hardware.media.c2@1.2-mediatek-seccomp-policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/android.hardware.media.c2@1.2-mediatek-seccomp-policy \
     vendor/xiaomi/camellia/proprietary/vendor/etc/seccomp_policy/mediacodec.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediacodec.policy \
     vendor/xiaomi/camellia/proprietary/vendor/etc/seccomp_policy/mediaextractor.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediaextractor.policy \
     vendor/xiaomi/camellia/proprietary/vendor/etc/seccomp_policy/mediaswcodec.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediaswcodec.policy \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/01419da9.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/01419da9.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/04f60c28.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/04f60c28.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/0d69c7e1.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/0d69c7e1.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/10531352.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/10531352.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/111e6273.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/111e6273.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/12d55845.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/12d55845.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/1ae85e5e.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/1ae85e5e.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/1df5a75f.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/1df5a75f.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/1e1eab7c.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/1e1eab7c.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/1e8e7201.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/1e8e7201.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/1eb37bdf.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/1eb37bdf.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/1f58a078.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/1f58a078.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/219d9499.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/219d9499.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/23f4c490.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/23f4c490.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/27af790d.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/27af790d.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/2add47b6.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/2add47b6.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/2d9dafe4.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/2d9dafe4.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/2fa87019.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/2fa87019.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/302904dd.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/302904dd.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/304d27c3.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/304d27c3.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/31188b5e.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/31188b5e.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/33ee480d.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/33ee480d.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/343eb6cb.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/343eb6cb.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/35105088.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/35105088.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/399e7759.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/399e7759.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/3ad48a91.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/3ad48a91.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/3c6676aa.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/3c6676aa.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/3c860d51.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/3c860d51.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/3c899c73.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/3c899c73.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/3c9a4d3b.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/3c9a4d3b.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/3e7271e8.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/3e7271e8.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/40dc992e.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/40dc992e.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/455f1b52.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/455f1b52.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/48a195d8.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/48a195d8.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/4be590e0.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/4be590e0.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/5046c355.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/5046c355.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/524d9b43.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/524d9b43.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/52b525c7.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/52b525c7.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/583d0756.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/583d0756.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/5a250ea7.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/5a250ea7.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/5a3f0ff8.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/5a3f0ff8.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/5acf816d.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/5acf816d.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/5cf9d536.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/5cf9d536.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/5f47b495.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/5f47b495.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/60afe812.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/60afe812.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/6187b673.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/6187b673.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/63a2c897.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/63a2c897.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/69105f4f.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/69105f4f.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/6b03dec0.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/6b03dec0.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/75680d2e.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/75680d2e.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/76579174.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/76579174.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/7892ad52.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/7892ad52.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/7a7c655d.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/7a7c655d.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/7a819ef2.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/7a819ef2.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/7c302982.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/7c302982.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/81b9768f.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/81b9768f.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/82223c44.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/82223c44.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/83e9984f.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/83e9984f.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/85cde254.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/85cde254.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/86212b19.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/86212b19.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/869fbf79.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/869fbf79.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/882de061.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/882de061.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/88950faa.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/88950faa.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/89c02a45.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/89c02a45.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/8d6437c3.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/8d6437c3.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/9282e51c.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/9282e51c.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/9339512a.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/9339512a.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/9479c8c3.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/9479c8c3.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/9576d26b.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/9576d26b.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/9591a472.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/9591a472.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/95aff9e3.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/95aff9e3.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/9685a493.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/9685a493.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/985c1f52.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/985c1f52.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/9aef356c.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/9aef356c.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/9d6523ce.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/9d6523ce.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/9f533518.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/9f533518.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/a2c66da8.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/a2c66da8.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/a3896b44.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/a3896b44.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/a7605362.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/a7605362.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/a81e292b.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/a81e292b.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/a9d40e02.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/a9d40e02.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/ab5346f4.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/ab5346f4.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/ab59055e.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/ab59055e.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/aeb67534.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/aeb67534.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/b0ed035a.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/b0ed035a.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/b0f3e76e.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/b0f3e76e.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/b3fb433b.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/b3fb433b.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/b74d2bd5.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/b74d2bd5.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/b7db1890.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/b7db1890.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/b872f2b4.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/b872f2b4.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/b936d1c6.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/b936d1c6.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/bc3f2570.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/bc3f2570.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/bd43e1dd.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/bd43e1dd.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/bdacca6f.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/bdacca6f.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/bf64f35b.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/bf64f35b.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/c2c1704e.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/c2c1704e.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/c491639e.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/c491639e.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/c51c224c.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/c51c224c.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/c559d742.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/c559d742.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/c90bc37d.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/c90bc37d.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/cb156124.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/cb156124.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/cb1c3204.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/cb1c3204.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/ccc52f49.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/ccc52f49.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/cf701eeb.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/cf701eeb.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/d06393bb.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/d06393bb.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/d0cddf45.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/d0cddf45.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/d16a5865.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/d16a5865.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/d18e9066.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/d18e9066.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/d39b0a2c.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/d39b0a2c.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/d41b5e2a.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/d41b5e2a.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/d4c339cb.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/d4c339cb.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/d59297b8.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/d59297b8.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/d7746a63.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/d7746a63.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/da7377f6.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/da7377f6.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/dbc54cab.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/dbc54cab.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/dbff3a01.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/dbff3a01.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/dc99f41e.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/dc99f41e.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/dfc0fe80.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/dfc0fe80.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/e442e424.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/e442e424.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/e48193cf.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/e48193cf.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/e8651083.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/e8651083.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/ed39abd0.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/ed39abd0.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/edcbddb5.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/edcbddb5.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/f013ecaf.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/f013ecaf.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/f0cd152c.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/f0cd152c.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/f459871d.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/f459871d.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/fb5fa911.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/fb5fa911.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/fd08c599.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/fd08c599.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts/fde84897.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/fde84897.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts_supl/111e6273.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/111e6273.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts_supl/3ad48a91.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/3ad48a91.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts_supl/7651b327.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/7651b327.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts_supl/c542733d.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/c542733d.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts_supl/cec771d5.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/cec771d5.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts_supl/f336e3d1.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/f336e3d1.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts_supl/lab/18dc3a8d.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/18dc3a8d.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts_supl/lab/1bc5ca0c.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/1bc5ca0c.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts_supl/lab/1bc5ca0c.1:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/1bc5ca0c.1 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts_supl/lab/2cbfcc3a.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/2cbfcc3a.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts_supl/lab/35ef1c14.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/35ef1c14.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts_supl/lab/399e7759.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/399e7759.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts_supl/lab/586933d9.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/586933d9.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts_supl/lab/66272d0d.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/66272d0d.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts_supl/lab/6f1dbe5e.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/6f1dbe5e.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts_supl/lab/b5805141.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/b5805141.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts_supl/lab/b805b58a.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/b805b58a.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts_supl/lab/ed7b215e.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/ed7b215e.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/security/cacerts_supl/lab/ef4b31e6.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/ef4b31e6.0 \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
     vendor/xiaomi/camellia/proprietary/vendor/etc/slp_conf:$(TARGET_COPY_OUT_VENDOR)/etc/slp_conf \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/smsdbvisitor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/smsdbvisitor.xml \
     vendor/xiaomi/camellia/proprietary/vendor/etc/special_pws_channel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/special_pws_channel.xml \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/st21nfc_conf.txt:$(TARGET_COPY_OUT_VENDOR)/etc/st21nfc_conf.txt \
+    vendor/xiaomi/camellia/proprietary/vendor/firmware/st21nfc_conf.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/st21nfc_conf.txt \
     vendor/xiaomi/camellia/proprietary/vendor/etc/thermal-arvr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-arvr.conf \
     vendor/xiaomi/camellia/proprietary/vendor/etc/thermal-camera.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-camera.conf \
     vendor/xiaomi/camellia/proprietary/vendor/etc/thermal-chg-only.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-chg-only.conf \
@@ -582,7 +394,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/camellia/proprietary/vendor/etc/virtual-spn-conf-by-efpnn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/virtual-spn-conf-by-efpnn.xml \
     vendor/xiaomi/camellia/proprietary/vendor/etc/virtual-spn-conf-by-efspn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/virtual-spn-conf-by-efspn.xml \
     vendor/xiaomi/camellia/proprietary/vendor/etc/virtual-spn-conf-by-imsi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/virtual-spn-conf-by-imsi.xml \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/wfd_source_capability.csv:$(TARGET_COPY_OUT_VENDOR)/etc/wfd_source_capability.csv \
     vendor/xiaomi/camellia/proprietary/vendor/firmware/BT_FW.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/BT_FW.cfg \
     vendor/xiaomi/camellia/proprietary/vendor/firmware/WIFI_RAM_CODE_soc2_2_1_1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/WIFI_RAM_CODE_soc2_2_1_1.bin \
     vendor/xiaomi/camellia/proprietary/vendor/firmware/WIFI_RAM_CODE_soc2_2_1a_1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/WIFI_RAM_CODE_soc2_2_1a_1.bin \
@@ -594,89 +405,19 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/camellia/proprietary/vendor/firmware/aw87559_pid_5a_voice_0.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw87559_pid_5a_voice_0.bin \
     vendor/xiaomi/camellia/proprietary/vendor/firmware/aw87xxx_vmax_0.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw87xxx_vmax_0.bin \
     vendor/xiaomi/camellia/proprietary/vendor/firmware/awinic_params.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/awinic_params.bin \
-    vendor/xiaomi/camellia/proprietary/vendor/firmware/fm_cust.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/fm_cust.cfg \
     vendor/xiaomi/camellia/proprietary/vendor/firmware/focaltech_mp_fw_tianma.ini:$(TARGET_COPY_OUT_VENDOR)/firmware/focaltech_mp_fw_tianma.ini \
     vendor/xiaomi/camellia/proprietary/vendor/firmware/focaltech_ts_fw_tianma.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/focaltech_ts_fw_tianma.bin \
     vendor/xiaomi/camellia/proprietary/vendor/firmware/fs1815.fsm:$(TARGET_COPY_OUT_VENDOR)/firmware/fs1815.fsm \
-    vendor/xiaomi/camellia/proprietary/vendor/firmware/gt1151_default_firmware2.img:$(TARGET_COPY_OUT_VENDOR)/firmware/gt1151_default_firmware2.img \
-    vendor/xiaomi/camellia/proprietary/vendor/firmware/gt9886_cfg_6781v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_cfg_6781v01.bin \
-    vendor/xiaomi/camellia/proprietary/vendor/firmware/gt9886_cfg_6785v96.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_cfg_6785v96.bin \
-    vendor/xiaomi/camellia/proprietary/vendor/firmware/gt9886_cfg_6785v99.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_cfg_6785v99.bin \
-    vendor/xiaomi/camellia/proprietary/vendor/firmware/gt9886_cfg_6853v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_cfg_6853v01.bin \
-    vendor/xiaomi/camellia/proprietary/vendor/firmware/gt9886_cfg_6873v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_cfg_6873v01.bin \
-    vendor/xiaomi/camellia/proprietary/vendor/firmware/gt9886_cfg_6877v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_cfg_6877v01.bin \
-    vendor/xiaomi/camellia/proprietary/vendor/firmware/gt9886_cfg_6885v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_cfg_6885v01.bin \
-    vendor/xiaomi/camellia/proprietary/vendor/firmware/gt9886_cfg_6885v1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_cfg_6885v1.bin \
-    vendor/xiaomi/camellia/proprietary/vendor/firmware/gt9886_cfg_6885v9c.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_cfg_6885v9c.bin \
-    vendor/xiaomi/camellia/proprietary/vendor/firmware/gt9886_cfg_6893v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_cfg_6893v01.bin \
-    vendor/xiaomi/camellia/proprietary/vendor/firmware/gt9886_cfg_90hz6785.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_cfg_90hz6785.bin \
-    vendor/xiaomi/camellia/proprietary/vendor/firmware/gt9886_cfg_90hz6877.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_cfg_90hz6877.bin \
-    vendor/xiaomi/camellia/proprietary/vendor/firmware/gt9886_cfg_90hz6885.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_cfg_90hz6885.bin \
-    vendor/xiaomi/camellia/proprietary/vendor/firmware/gt9886_cfg_gt9885v1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_cfg_gt9885v1.bin \
-    vendor/xiaomi/camellia/proprietary/vendor/firmware/gt9886_firmware_6781v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_firmware_6781v01.bin \
-    vendor/xiaomi/camellia/proprietary/vendor/firmware/gt9886_firmware_6785a4.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_firmware_6785a4.bin \
-    vendor/xiaomi/camellia/proprietary/vendor/firmware/gt9886_firmware_6785ae.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_firmware_6785ae.bin \
-    vendor/xiaomi/camellia/proprietary/vendor/firmware/gt9886_firmware_6853v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_firmware_6853v01.bin \
-    vendor/xiaomi/camellia/proprietary/vendor/firmware/gt9886_firmware_6873v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_firmware_6873v01.bin \
-    vendor/xiaomi/camellia/proprietary/vendor/firmware/gt9886_firmware_6877af.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_firmware_6877af.bin \
-    vendor/xiaomi/camellia/proprietary/vendor/firmware/gt9886_firmware_6877v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_firmware_6877v01.bin \
-    vendor/xiaomi/camellia/proprietary/vendor/firmware/gt9886_firmware_6885a1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_firmware_6885a1.bin \
-    vendor/xiaomi/camellia/proprietary/vendor/firmware/gt9886_firmware_6885af.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_firmware_6885af.bin \
-    vendor/xiaomi/camellia/proprietary/vendor/firmware/gt9886_firmware_6885b0.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_firmware_6885b0.bin \
-    vendor/xiaomi/camellia/proprietary/vendor/firmware/gt9886_firmware_6885b1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_firmware_6885b1.bin \
-    vendor/xiaomi/camellia/proprietary/vendor/firmware/gt9886_firmware_6885v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_firmware_6885v01.bin \
-    vendor/xiaomi/camellia/proprietary/vendor/firmware/gt9886_firmware_6893v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_firmware_6893v01.bin \
-    vendor/xiaomi/camellia/proprietary/vendor/firmware/gt9896s_cfg_6781v01_1080x2280.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_cfg_6781v01_1080x2280.bin \
-    vendor/xiaomi/camellia/proprietary/vendor/firmware/gt9896s_cfg_6781v01_1080x2300.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_cfg_6781v01_1080x2300.bin \
-    vendor/xiaomi/camellia/proprietary/vendor/firmware/gt9896s_cfg_6833v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_cfg_6833v01.bin \
-    vendor/xiaomi/camellia/proprietary/vendor/firmware/gt9896s_cfg_6853v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_cfg_6853v01.bin \
-    vendor/xiaomi/camellia/proprietary/vendor/firmware/gt9896s_cfg_6873v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_cfg_6873v01.bin \
-    vendor/xiaomi/camellia/proprietary/vendor/firmware/gt9896s_cfg_6877v01_1080x2280.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_cfg_6877v01_1080x2280.bin \
-    vendor/xiaomi/camellia/proprietary/vendor/firmware/gt9896s_cfg_6877v01_1080x2300.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_cfg_6877v01_1080x2300.bin \
-    vendor/xiaomi/camellia/proprietary/vendor/firmware/gt9896s_cfg_6879v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_cfg_6879v01.bin \
-    vendor/xiaomi/camellia/proprietary/vendor/firmware/gt9896s_cfg_6893v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_cfg_6893v01.bin \
-    vendor/xiaomi/camellia/proprietary/vendor/firmware/gt9896s_cfg_6893v02.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_cfg_6893v02.bin \
-    vendor/xiaomi/camellia/proprietary/vendor/firmware/gt9896s_cfg_6893v03.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_cfg_6893v03.bin \
-    vendor/xiaomi/camellia/proprietary/vendor/firmware/gt9896s_cfg_6893v04.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_cfg_6893v04.bin \
-    vendor/xiaomi/camellia/proprietary/vendor/firmware/gt9896s_cfg_6893v05.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_cfg_6893v05.bin \
-    vendor/xiaomi/camellia/proprietary/vendor/firmware/gt9896s_cfg_6895v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_cfg_6895v01.bin \
-    vendor/xiaomi/camellia/proprietary/vendor/firmware/gt9896s_cfg_6983v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_cfg_6983v01.bin \
-    vendor/xiaomi/camellia/proprietary/vendor/firmware/gt9896s_firmware_6781v01_1080x2280.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_firmware_6781v01_1080x2280.bin \
-    vendor/xiaomi/camellia/proprietary/vendor/firmware/gt9896s_firmware_6781v01_1080x2300.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_firmware_6781v01_1080x2300.bin \
-    vendor/xiaomi/camellia/proprietary/vendor/firmware/gt9896s_firmware_6833v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_firmware_6833v01.bin \
-    vendor/xiaomi/camellia/proprietary/vendor/firmware/gt9896s_firmware_6853v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_firmware_6853v01.bin \
-    vendor/xiaomi/camellia/proprietary/vendor/firmware/gt9896s_firmware_6873v00.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_firmware_6873v00.bin \
-    vendor/xiaomi/camellia/proprietary/vendor/firmware/gt9896s_firmware_6877v01_1080x2280.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_firmware_6877v01_1080x2280.bin \
-    vendor/xiaomi/camellia/proprietary/vendor/firmware/gt9896s_firmware_6877v01_1080x2300.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_firmware_6877v01_1080x2300.bin \
-    vendor/xiaomi/camellia/proprietary/vendor/firmware/gt9896s_firmware_6879v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_firmware_6879v01.bin \
-    vendor/xiaomi/camellia/proprietary/vendor/firmware/gt9896s_firmware_6893v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_firmware_6893v01.bin \
-    vendor/xiaomi/camellia/proprietary/vendor/firmware/gt9896s_firmware_6893v02.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_firmware_6893v02.bin \
-    vendor/xiaomi/camellia/proprietary/vendor/firmware/gt9896s_firmware_6893v03.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_firmware_6893v03.bin \
-    vendor/xiaomi/camellia/proprietary/vendor/firmware/gt9896s_firmware_6893v04.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_firmware_6893v04.bin \
-    vendor/xiaomi/camellia/proprietary/vendor/firmware/gt9896s_firmware_6893v05.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_firmware_6893v05.bin \
-    vendor/xiaomi/camellia/proprietary/vendor/firmware/gt9896s_firmware_6895v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_firmware_6895v01.bin \
-    vendor/xiaomi/camellia/proprietary/vendor/firmware/gt9896s_firmware_6983v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_firmware_6983v01.bin \
     vendor/xiaomi/camellia/proprietary/vendor/firmware/lib3a.ccu:$(TARGET_COPY_OUT_VENDOR)/firmware/lib3a.ccu \
-    vendor/xiaomi/camellia/proprietary/vendor/firmware/mt6631_fm_v1_coeff.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mt6631_fm_v1_coeff.bin \
-    vendor/xiaomi/camellia/proprietary/vendor/firmware/mt6631_fm_v1_patch.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mt6631_fm_v1_patch.bin \
-    vendor/xiaomi/camellia/proprietary/vendor/firmware/mt6635_fm_v1_coeff.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mt6635_fm_v1_coeff.bin \
-    vendor/xiaomi/camellia/proprietary/vendor/firmware/mt6635_fm_v1_patch.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mt6635_fm_v1_patch.bin \
     vendor/xiaomi/camellia/proprietary/vendor/firmware/nt36672c_tm_01_ts_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nt36672c_tm_01_ts_fw.bin \
-    vendor/xiaomi/camellia/proprietary/vendor/firmware/nt36672c_tm_01_ts_mp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nt36672c_tm_01_ts_mp.bin \
-    vendor/xiaomi/camellia/proprietary/vendor/firmware/nt36672c_tr_02_kn_ts_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nt36672c_tr_02_kn_ts_fw.bin \
-    vendor/xiaomi/camellia/proprietary/vendor/firmware/nt36672c_tr_02_kn_ts_mp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nt36672c_tr_02_kn_ts_mp.bin \
     vendor/xiaomi/camellia/proprietary/vendor/firmware/nt36672c_tr_02_ts_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nt36672c_tr_02_ts_fw.bin \
-    vendor/xiaomi/camellia/proprietary/vendor/firmware/nt36672c_tr_02_ts_mp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nt36672c_tr_02_ts_mp.bin \
     vendor/xiaomi/camellia/proprietary/vendor/firmware/nt36672d_tm_03_ts_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nt36672d_tm_03_ts_fw.bin \
-    vendor/xiaomi/camellia/proprietary/vendor/firmware/nt36672d_tm_03_ts_mp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nt36672d_tm_03_ts_mp.bin \
-    vendor/xiaomi/camellia/proprietary/vendor/firmware/remoteproc_scp:$(TARGET_COPY_OUT_VENDOR)/firmware/remoteproc_scp \
     vendor/xiaomi/camellia/proprietary/vendor/firmware/soc2_2_ram_bt_1_1_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc2_2_ram_bt_1_1_hdr.bin \
     vendor/xiaomi/camellia/proprietary/vendor/firmware/soc2_2_ram_bt_1a_1_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc2_2_ram_bt_1a_1_hdr.bin \
     vendor/xiaomi/camellia/proprietary/vendor/firmware/soc2_2_ram_mcu_1_1_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc2_2_ram_mcu_1_1_hdr.bin \
     vendor/xiaomi/camellia/proprietary/vendor/firmware/soc2_2_ram_mcu_1a_1_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc2_2_ram_mcu_1a_1_hdr.bin \
     vendor/xiaomi/camellia/proprietary/vendor/firmware/soc2_2_ram_wifi_1_1_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc2_2_ram_wifi_1_1_hdr.bin \
     vendor/xiaomi/camellia/proprietary/vendor/firmware/soc2_2_ram_wifi_1a_1_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc2_2_ram_wifi_1a_1_hdr.bin \
-    vendor/xiaomi/camellia/proprietary/vendor/firmware/st21nfc_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/st21nfc_fw.bin \
     vendor/xiaomi/camellia/proprietary/vendor/firmware/st21nfc_fw7.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/st21nfc_fw7.bin \
     vendor/xiaomi/camellia/proprietary/vendor/firmware/txpowerctrl.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/txpowerctrl.cfg \
     vendor/xiaomi/camellia/proprietary/vendor/firmware/wifi.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/wifi.cfg \
@@ -697,26 +438,13 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/camellia/proprietary/vendor/lib/hw/audio.primary.mt6833.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.mt6833.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/hw/audio.r_submix.mt6833.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.r_submix.mt6833.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/hw/awinic.audio.effect.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/awinic.audio.effect.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/hw/consumerir.common.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/consumerir.common.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/hw/gatekeeper.beanpod.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gatekeeper.beanpod.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/hw/gps.mt6833.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gps.mt6833.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/hw/gralloc.mt6833.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gralloc.mt6833.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/hw/kmsetkey.beanpod.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/kmsetkey.beanpod.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/hw/libSoftGatekeeper.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/libSoftGatekeeper.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/hw/sound_trigger.primary.mt6833.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sound_trigger.primary.mt6833.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/hw/vendor.mediatek.hardware.bluetooth.audio@2.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.bluetooth.audio@2.1-impl.so \
+    vendor/xiaomi/camellia/proprietary/vendor/lib/hw/sound_trigger.primary.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sound_trigger.primary.default.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/hw/vendor.mediatek.hardware.bluetooth.audio@2.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.bluetooth.audio@2.2-impl.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-impl.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/hw/vendor.mediatek.hardware.mms@1.6-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.mms@1.6-impl.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/hw/vendor.mediatek.hardware.nvram@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.nvram@1.1-impl.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/hw/vendor.mediatek.hardware.pq@2.13-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.pq@2.13-impl.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/hw/vulkan.mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vulkan.mali.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/libAVCSecureVencCA.so:$(TARGET_COPY_OUT_VENDOR)/lib/libAVCSecureVencCA.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/libDefaultFpsActor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libDefaultFpsActor.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/libFrameRecord.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFrameRecord.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libHEVCdec_sa.ca7.android.so:$(TARGET_COPY_OUT_VENDOR)/lib/libHEVCdec_sa.ca7.android.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libJpgEncPipe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libJpgEncPipe.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/libMtkOmxAdpcmDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxAdpcmDec.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/libMtkOmxAlacDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxAlacDec.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/libMtkOmxApeDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxApeDec.so \
@@ -736,14 +464,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/camellia/proprietary/vendor/lib/libadpcmdec_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadpcmdec_mtk.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/libaedv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaedv.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/libalacdec_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libalacdec_mtk.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libapmonitor_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libapmonitor_vendor.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libappgamepq.so:$(TARGET_COPY_OUT_VENDOR)/lib/libappgamepq.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libapu_mdw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libapu_mdw.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libapusys.so:$(TARGET_COPY_OUT_VENDOR)/lib/libapusys.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libapusys_edma.so:$(TARGET_COPY_OUT_VENDOR)/lib/libapusys_edma.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libasn1c_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libasn1c_core.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libasn1c_mapi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libasn1c_mapi.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libasn1c_mdmi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libasn1c_mdmi.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/libaudio_param_parser-vnd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudio_param_parser-vnd.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/libaudiocompensationfilter_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiocompensationfilter_vendor.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/libaudiocompensationfilterc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiocompensationfilterc.so \
@@ -761,149 +481,75 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/camellia/proprietary/vendor/lib/libbluetooth_audio_session_mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbluetooth_audio_session_mediatek.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/libbluetooth_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbluetooth_mtk.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/libbluetooth_mtk_pure.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbluetooth_mtk_pure.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libbluetooth_relayer.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbluetooth_relayer.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libbluetoothem_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbluetoothem_mtk.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/libbt-vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbt-vendor.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/libbwc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbwc.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libcapctrl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcapctrl.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libcares_naptr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcares_naptr.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libcarrierconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcarrierconfig.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libccci_util.so:$(TARGET_COPY_OUT_VENDOR)/lib/libccci_util.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libcheckpid.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcheckpid.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/libcodec2_mtk_c2store.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_mtk_c2store.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/libcodec2_mtk_vdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_mtk_vdec.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/libcodec2_mtk_venc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_mtk_venc.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/libcodec2_vpp_qt_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_vpp_qt_plugin.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/libcodec2_vpp_rs_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_vpp_rs_plugin.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libconnfem.so:$(TARGET_COPY_OUT_VENDOR)/lib/libconnfem.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/libcustom_nvram.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcustom_nvram.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/libcvsd_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcvsd_mtk.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libdecrypt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdecrypt.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/libdre.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdre.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libdynamiclog.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdynamiclog.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/libfgauge_gm30.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfgauge_gm30.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/libfile_op.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfile_op.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/libformatter.so:$(TARGET_COPY_OUT_VENDOR)/lib/libformatter.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libfsmaudio.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfsmaudio.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/libgamehdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgamehdr.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/libged.so:$(TARGET_COPY_OUT_VENDOR)/lib/libged.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/libgpu_aux.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgpu_aux.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/libgpud.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgpud.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libgpudataproducer.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgpudataproducer.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/libgralloc_extra.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgralloc_extra.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/libgralloc_metadata.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgralloc_metadata.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/libgralloctypes_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgralloctypes_mtk.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/libgz_gp_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgz_gp_client.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/libgz_uree.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgz_uree.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libh264dec_customize.so:$(TARGET_COPY_OUT_VENDOR)/lib/libh264dec_customize.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libh264dec_sa.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libh264dec_sa.ca7.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libh264dec_sd.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libh264dec_sd.ca7.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libh264dec_se.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libh264dec_se.ca7.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libh264enc_sa.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libh264enc_sa.ca7.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/libhdrvideo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdrvideo.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libhevce_sb.ca7.android.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhevce_sb.ca7.android.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libicd_decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libicd_decoder.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libimgsensorca.so:$(TARGET_COPY_OUT_VENDOR)/lib/libimgsensorca.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/libimsg_log.so:$(TARGET_COPY_OUT_VENDOR)/lib/libimsg_log.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/libion_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libion_mtk.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/libion_ulit.so:$(TARGET_COPY_OUT_VENDOR)/lib/libion_ulit.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/libipsec_ims_shr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libipsec_ims_shr.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libjpeg-alpha-oal_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpeg-alpha-oal_vendor.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libjpeg-alpha_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpeg-alpha_vendor.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/libladder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libladder.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/liblogwrap_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblogwrap_vendor.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libminiui.so:$(TARGET_COPY_OUT_VENDOR)/lib/libminiui.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/libmml.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmml.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libmnetlink_v104.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmnetlink_v104.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/libmp3dec_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmp3dec_mtk.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libmp4enc_sa.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmp4enc_sa.ca7.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libmp4enc_xa.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmp4enc_xa.ca7.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/libmsbc_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmsbc_mtk.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libmt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmt.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/libmtcloader.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtcloader.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libmtkares.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkares.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/libmtkcutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcutils.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libmtkhardware_legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkhardware_legacy.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/libmtklimiter_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtklimiter_vendor.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libmtknetutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtknetutils.so \
+    vendor/xiaomi/camellia/proprietary/vendor/lib/libmtkperf_client_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkperf_client_vendor.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/libmtkproperty.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkproperty.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/libmtkrillog.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkrillog.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/libmtkshifter_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkshifter_vendor.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libmtkspparser.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkspparser.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libmtksysutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtksysutils.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libmvpu_config_data.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmvpu_config_data.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libneuropilot_hal_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libneuropilot_hal_utils.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/libnvram.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnvram.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/libnvram_sec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnvram_sec.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libnwk_opt_halwrap_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnwk_opt_halwrap_vendor.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/libnxp_extamp_intf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnxp_extamp_intf.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/liboemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboemcrypto.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libpixelflinger.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpixelflinger.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libpkm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpkm.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/libpq_cust_base.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpq_cust_base.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/libpqframework.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpqframework.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/librcs_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/librcs_interface.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/librcs_volte_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/librcs_volte_core.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/librgbwlightsensor.so:$(TARGET_COPY_OUT_VENDOR)/lib/librgbwlightsensor.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/librpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/librpc.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/librt_extamp_intf.so:$(TARGET_COPY_OUT_VENDOR)/lib/librt_extamp_intf.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libscltm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscltm.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libsimlock.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsimlock.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libsimmelock.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsimmelock.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/libspeech_enh_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libspeech_enh_lib.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/libspeechparser_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libspeechparser_vendor.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/libstagefrighthw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefrighthw.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libstfactory-vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstfactory-vendor.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libsysenv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsysenv.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libteeclientjni.so:$(TARGET_COPY_OUT_VENDOR)/lib/libteeclientjni.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libteeclientjni@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libteeclientjni@1.1.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/libteei_daemon_vfs.so:$(TARGET_COPY_OUT_VENDOR)/lib/libteei_daemon_vfs.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/libthermalalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libthermalalgo.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libthha.so:$(TARGET_COPY_OUT_VENDOR)/lib/libthha.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libtlcWidevineModularDrm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtlcWidevineModularDrm.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libtranslator_mapi_v3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtranslator_mapi_v3.0.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libtranslator_mdmi_v2.8.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtranslator_mdmi_v2.8.2.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libtranslator_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtranslator_utils.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/libudf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libudf.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/liburee_meta_drmkeyinstall.so:$(TARGET_COPY_OUT_VENDOR)/lib/liburee_meta_drmkeyinstall.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libvc1dec_sa.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvc1dec_sa.ca7.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/libvcodec_oal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvcodec_oal.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/libvcodec_utility.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvcodec_utility.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/libvcodecdrv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvcodecdrv.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/libvcodecdrv_header_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvcodecdrv_header_stub.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libviagpsrpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libviagpsrpc.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/libvow_ap_test_aa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvow_ap_test_aa.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/libvow_ap_test_dd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvow_ap_test_dd.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/libvow_ap_test_ha.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvow_ap_test_ha.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/libvow_ap_test_hh.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvow_ap_test_hh.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/libvow_ap_test_nn.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvow_ap_test_nn.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libvp8dec_sa.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvp8dec_sa.ca7.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libvp8enc_sa.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvp8enc_sa.ca7.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libvp9dec_sa.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvp9dec_sa.ca7.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/libvpu5.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvpu5.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/libvpud_vcodec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvpud_vcodec.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libvsim.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvsim.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libvt_custom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvt_custom.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libwapi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwapi.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvhidl.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libwvkeybox.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvkeybox.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libwvkeyboxext.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvkeyboxext.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/meta_wifi_data.so:$(TARGET_COPY_OUT_VENDOR)/lib/meta_wifi_data.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/mt6833/libaiselector.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6833/libaiselector.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/mt6833/libdpframework.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6833/libdpframework.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/mt6833/libmtk_drvb.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6833/libmtk_drvb.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/mt6833/libpq_prot.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6833/libpq_prot.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/nfc_nci.st21nfc.st.so:$(TARGET_COPY_OUT_VENDOR)/lib/nfc_nci.st21nfc.st.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/sensors.touch.detect.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.touch.detect.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/vendor.mediatek.hardware.apmonitor@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.apmonitor@2.0.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/vendor.mediatek.hardware.audio@6.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.audio@6.1.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/vendor.mediatek.hardware.audio@7.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.audio@7.1.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/vendor.mediatek.hardware.bluetooth.audio@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.bluetooth.audio@2.1.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/vendor.mediatek.hardware.bluetooth.audio@2.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.bluetooth.audio@2.2.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/vendor.mediatek.hardware.keymaster_attestation@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.keymaster_attestation@1.0.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/vendor.mediatek.hardware.keymaster_attestation@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.keymaster_attestation@1.1.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/vendor.mediatek.hardware.mdmonitor@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mdmonitor@1.0.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/vendor.mediatek.hardware.mmagent@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mmagent@1.0.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/vendor.mediatek.hardware.mms@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mms@1.0.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/vendor.mediatek.hardware.mms@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mms@1.1.so \
@@ -912,10 +558,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/camellia/proprietary/vendor/lib/vendor.mediatek.hardware.mms@1.4.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mms@1.4.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/vendor.mediatek.hardware.mms@1.5.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mms@1.5.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/vendor.mediatek.hardware.mms@1.6.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mms@1.6.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/vendor.mediatek.hardware.netdagent@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.netdagent@1.0.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/vendor.mediatek.hardware.nvram@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.nvram@1.0.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/vendor.mediatek.hardware.nvram@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.nvram@1.1.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/vendor.mediatek.hardware.nwk_opt@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.nwk_opt@1.0.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.0.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.1.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.10.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.10.so \
@@ -933,7 +577,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/camellia/proprietary/vendor/lib/vendor.mediatek.hardware.rcs@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.rcs@2.0.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.videotelephony@1.0.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/arm.graphics-V1-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/arm.graphics-V1-ndk_platform.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib64/audio_common-aidl-cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/audio_common-aidl-cpp.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/com.fingerprints.extension@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.fingerprints.extension@1.0.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLES_mali.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/egl/libGLES_meow.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLES_meow.so \
@@ -959,32 +602,25 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/hw/android.hardware.graphics.allocator@4.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.graphics.allocator@4.0-impl-mediatek.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/hw/android.hardware.graphics.mapper@4.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.graphics.mapper@4.0-impl-mediatek.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/hw/android.hardware.sensors@2.X-subhal-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.sensors@2.X-subhal-mediatek.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib64/hw/consumerir.camellia.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/consumerir.camellia.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/hw/consumerir.common.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/consumerir.common.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/hw/fingerprint.mt6833.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.mt6833.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/hw/gatekeeper.beanpod.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.beanpod.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/hw/gf_fingerprint.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gf_fingerprint.default.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib64/hw/gps.mt6833.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gps.mt6833.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib64/hw/gralloc.mt6833.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gralloc.mt6833.so \
+    vendor/xiaomi/camellia/proprietary/vendor/lib64/hw/gps.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gps.default.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/hw/hwcomposer.mt6833.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/hwcomposer.mt6833.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib64/hw/kmsetkey.beanpod.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/kmsetkey.beanpod.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib64/hw/libSoftGatekeeper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/libSoftGatekeeper.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/hw/sensors.mt6833.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sensors.mt6833.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib64/hw/sound_trigger.primary.mt6833.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sound_trigger.primary.mt6833.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.bluetooth.audio@2.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.bluetooth.audio@2.1-impl.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.bluetooth.audio@2.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.bluetooth.audio@2.2-impl.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.camera.atms@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.camera.atms@1.0-impl.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.camera.bgservice@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.camera.bgservice@1.1-impl.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.camera.ccap@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.camera.ccap@1.0-impl.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.camera.isphal@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.camera.isphal@1.0-impl.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.camera.lomoeffect@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.camera.lomoeffect@1.0-impl.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-impl.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.mms@1.6-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.mms@1.6-impl.so \
+    vendor/xiaomi/camellia/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.mtkpower@1.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.mtkpower@1.2-impl.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.nvram@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.nvram@1.1-impl.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.pq@2.13-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.pq@2.13-impl.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/hw/vulkan.mali.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vulkan.mali.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib64/lbs_hidl_service-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lbs_hidl_service-impl.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/lib3a.ae.core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a.ae.core.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/lib3a.ae.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a.ae.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/lib3a.ae.stat.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a.ae.stat.so \
@@ -1349,7 +985,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libDefaultFpsActor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libDefaultFpsActor.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libFrameRecord.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libFrameRecord.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libJpgEncPipe.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libJpgEncPipe.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib64/libMtkSpeechEnh.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libMtkSpeechEnh.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libNoFpsActor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libNoFpsActor.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libOpenCL.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOpenCL.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libSQLiteModule_VER_ALL.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSQLiteModule_VER_ALL.so \
@@ -1363,8 +998,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libSonyIMX519PdafLibraryWrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSonyIMX519PdafLibraryWrapper.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libTEECommon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libTEECommon.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/lib_bsscore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_bsscore.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib64/lib_iir.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_iir.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib64/lib_speech_enh.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_speech_enh.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/lib_sr_models.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_sr_models.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libaaa_ltm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaaa_ltm.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libaaa_ltmx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaaa_ltmx.so \
@@ -1372,8 +1005,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libaal_key.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaal_key.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libaal_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaal_mtk.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libaalservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaalservice.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib64/libacdk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libacdk.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib64/libadpcmdec_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libadpcmdec_mtk.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libaedv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaedv.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libaiawb_moon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaiawb_moon.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libaiawb_moon_model.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaiawb_moon_model.so \
@@ -1381,29 +1012,15 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libaiawb_sun.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaiawb_sun.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libaiawb_sun_model.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaiawb_sun_model.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libalCFR.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libalCFR.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib64/libalacdec_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libalacdec_mtk.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib64/libapmonitor_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libapmonitor_vendor.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib64/libappgamepq.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libappgamepq.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib64/libapu_mdw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libapu_mdw.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib64/libapusys.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libapusys.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib64/libapusys_edma.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libapusys_edma.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libarcbokeh.preview.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcbokeh.preview.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libarcsoft_beautyshot.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_beautyshot.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libarcsoft_dualcam_refocus.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_dualcam_refocus.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libarcsoft_fbpre.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_fbpre.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libarcsoft_hdr_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_hdr_preview.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libarcsoft_supernight.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_supernight.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib64/libasn1c_core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libasn1c_core.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib64/libasn1c_mapi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libasn1c_mapi.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib64/libasn1c_mdmi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libasn1c_mdmi.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib64/libaurisysdemo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaurisysdemo.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib64/libbessound_hd_mtk_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbessound_hd_mtk_vendor.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib64/libblisrc32_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libblisrc32_vendor.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libbluetooth_audio_session_mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbluetooth_audio_session_mediatek.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libbluetooth_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbluetooth_mtk.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libbluetooth_mtk_pure.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbluetooth_mtk_pure.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib64/libbluetooth_relayer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbluetooth_relayer.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib64/libbluetoothem_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbluetoothem_mtk.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libbt-vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbt-vendor.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libbwc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbwc.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libc++_shared.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libc++_shared.so \
@@ -1472,21 +1089,16 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libcameracustom.flashlight.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcameracustom.flashlight.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libcameracustom.lens.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcameracustom.lens.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libcameracustom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcameracustom.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib64/libcapctrl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcapctrl.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libcares_naptr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcares_naptr.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libcarrierconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcarrierconfig.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libccci_util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libccci_util.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib64/libcheckpid.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcheckpid.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libcomposer_ext.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcomposer_ext.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libconnfem.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libconnfem.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libcustom_nvram.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcustom_nvram.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib64/libcvsd_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcvsd_mtk.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib64/libdecrypt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdecrypt.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libdip_drv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdip_drv.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libdip_imem.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdip_imem.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libdip_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdip_postproc.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libdre.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdre.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib64/libdynamiclog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdynamiclog.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libeffecthal.base.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libeffecthal.base.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libfeature.face.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfeature.face.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libfeature.stereo.provider.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfeature.stereo.provider.so \
@@ -1497,11 +1109,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libfeature_lmv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfeature_lmv.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libfeature_rss.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfeature_rss.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libfeatureiodrv_mem.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfeatureiodrv_mem.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib64/libfft_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfft_vendor.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libfile_op.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfile_op.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libfingerprint.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfingerprint.default.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libforkexecwrap.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libforkexecwrap.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib64/libfsmaudio.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfsmaudio.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libgamehdr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgamehdr.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libged.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libged.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libgf_ca.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_ca.so \
@@ -1509,7 +1119,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libgoodixhwfingerprint.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgoodixhwfingerprint.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libgpu_aux.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgpu_aux.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libgpud.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgpud.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib64/libgpudataproducer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgpudataproducer.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libgralloc_extra.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgralloc_extra.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libgralloc_metadata.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgralloc_metadata.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libgralloctypes_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgralloctypes_mtk.so \
@@ -1517,12 +1126,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libgz_uree.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgz_uree.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libhdrvideo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdrvideo.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libheichal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libheichal.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib64/libhevce_sb.ca7.android.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhevce_sb.ca7.android.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libhfmanager.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhfmanager.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib64/libhfmanagerwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhfmanagerwrapper.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libhq_videofilter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhq_videofilter.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libhwm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhwm.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib64/libicd_decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libicd_decoder.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libifcutils_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libifcutils_mtk.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libimagebuffer_wrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libimagebuffer_wrapper.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libimageio.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libimageio.so \
@@ -1536,30 +1142,20 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libispcameraca.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libispcameraca.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libjpeg-alpha-oal_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjpeg-alpha-oal_vendor.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libjpeg-alpha_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjpeg-alpha_vendor.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib64/libkmsetkey.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkmsetkey.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libksensor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libksensor.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libladder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libladder.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib64/liblogwrap_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblogwrap_vendor.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/liblpcnr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblpcnr.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libm4u.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libm4u.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libmfllcore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmfllcore.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libmi_bokehpre.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmi_bokehpre.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libmialgoengine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmialgoengine.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libmibokeh_mt6873.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmibokeh_mt6873.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib64/libminiui.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libminiui.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libmipc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmipc.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib64/libmmagent.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmagent.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libmml.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmml.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libmnetlink_v104.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmnetlink_v104.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libmnl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmnl.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib64/libmp3dec_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmp3dec_mtk.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libmpbase.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmpbase.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib64/libmsbc_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmsbc_mtk.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libmsnr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmsnr.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib64/libmt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmt.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib64/libmt@1.3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmt@1.3.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib64/libmtcloader.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtcloader.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib64/libmtk-fusion-ril-prop-vsim.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtk-fusion-ril-prop-vsim.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libmtk-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtk-ril.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libmtkares.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkares.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libmtkcam.atmseventmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam.atmseventmgr.so \
@@ -1632,87 +1228,52 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libmtkcutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcutils.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libmtkhardware_legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkhardware_legacy.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libmtkisp_metadata.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkisp_metadata.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib64/libmtklimiter_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtklimiter_vendor.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib64/libmtkmipc-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkmipc-ril.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libmtknetcap.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtknetcap.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libmtknetutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtknetutils.so \
+    vendor/xiaomi/camellia/proprietary/vendor/lib64/libmtkperf_client_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkperf_client_vendor.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libmtkproperty.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkproperty.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libmtkrillog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkrillog.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libmtkrilutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkrilutils.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib64/libmtkshifter_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkshifter_vendor.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib64/libmtkspparser.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkspparser.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libmtksysutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtksysutils.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libmtktinyxml.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtktinyxml.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libmtkutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkutils.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib64/libmvpu_config_data.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmvpu_config_data.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib64/libneuropilot_hal_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libneuropilot_hal_utils.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libnvram.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnvram.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libnvram_sec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnvram_sec.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib64/libnwk_opt_halwrap_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnwk_opt_halwrap_vendor.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib64/libnxp_extamp_intf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnxp_extamp_intf.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/liboemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liboemcrypto.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib64/libpixelflinger.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpixelflinger.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib64/libpkm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpkm.so \
+    vendor/xiaomi/camellia/proprietary/vendor/lib64/libperfctl_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libperfctl_vendor.so \
+    vendor/xiaomi/camellia/proprietary/vendor/lib64/libpower_timer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpower_timer.so \
+    vendor/xiaomi/camellia/proprietary/vendor/lib64/libpowerhal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpowerhal.so \
+    vendor/xiaomi/camellia/proprietary/vendor/lib64/libpowerhalwrap_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpowerhalwrap_vendor.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libpq_cust_base.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpq_cust_base.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libpqframework.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpqframework.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libpqparamparser.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpqparamparser.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libratconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libratconfig.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib64/librgbwlightsensor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librgbwlightsensor.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/librilfusion.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librilfusion.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib64/librpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librpc.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib64/librt_extamp_intf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librt_extamp_intf.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib64/libscltm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscltm.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libsdk_sr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdk_sr.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libsensor_custom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensor_custom.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib64/libsimlock.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsimlock.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib64/libsimmelock.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsimmelock.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib64/libspeech_enh_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libspeech_enh_lib.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib64/libspeechparser_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libspeechparser_vendor.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libstagefrighthw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefrighthw.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libstereoinfoaccessor_vsdof.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstereoinfoaccessor_vsdof.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib64/libstfactory-vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstfactory-vendor.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libstorage_otp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstorage_otp.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libsysenv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsysenv.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib64/libteeclientjni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libteeclientjni.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib64/libteeclientjni@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libteeclientjni@1.1.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libteei_daemon_vfs.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libteei_daemon_vfs.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libthha.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libthha.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libtlcWidevineModularDrm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtlcWidevineModularDrm.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib64/libtranslator_mapi_v3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtranslator_mapi_v3.0.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib64/libtranslator_mdmi_v2.8.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtranslator_mdmi_v2.8.2.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib64/libtranslator_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtranslator_utils.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libtrm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtrm.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libudf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libudf.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/liburee_meta_drmkeyinstall.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liburee_meta_drmkeyinstall.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libvendor.goodix.hardware.biometrics.fingerprint@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvendor.goodix.hardware.biometrics.fingerprint@2.1.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib64/libvia-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvia-ril.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib64/libviagpsrpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libviagpsrpc.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib64/libviamipc-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libviamipc-ril.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libvideofilter_only.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvideofilter_only.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libvidhance.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvidhance.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib64/libvow_ap_test_aa.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvow_ap_test_aa.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib64/libvow_ap_test_dd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvow_ap_test_dd.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib64/libvow_ap_test_ha.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvow_ap_test_ha.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib64/libvow_ap_test_hh.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvow_ap_test_hh.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib64/libvow_ap_test_nn.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvow_ap_test_nn.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib64/libvpu5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvpu5.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib64/libvsim.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvsim.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib64/libwapi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwapi.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib64/libwifitest.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwifitest.so \
+    vendor/xiaomi/camellia/proprietary/vendor/lib64/libwifi-hal-mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwifi-hal-mtk.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libwpfa.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwpfa.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwvhidl.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib64/libwvkeybox.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwvkeybox.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib64/libwvkeyboxext.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwvkeyboxext.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libxmi_high_dynamic_range.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxmi_high_dynamic_range.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mediadrm/libwvdrmengine.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib64/meta_wifi_data.so:$(TARGET_COPY_OUT_VENDOR)/lib64/meta_wifi_data.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/mt6833/libaiselector.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6833/libaiselector.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/mt6833/libdpframework.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6833/libdpframework.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/mt6833/libmtk_drvb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6833/libmtk_drvb.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/mt6833/libpq_prot.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6833/libpq_prot.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/mtkcam/libmtkcam_streaminfo_plugin-p1stt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mtkcam/libmtkcam_streaminfo_plugin-p1stt.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib64/nfc_nci.st21nfc.st.so:$(TARGET_COPY_OUT_VENDOR)/lib64/nfc_nci.st21nfc.st.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib64/nwk_opt_imp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/nwk_opt_imp.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/ov02b10_aac_macro_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/ov02b10_aac_macro_mipi_raw_IdxMgr.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/ov02b10_aac_macro_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/ov02b10_aac_macro_mipi_raw_tuning.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/ov48b_aac_main_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/ov48b_aac_main_mipi_raw_IdxMgr.so \
@@ -1725,9 +1286,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/ov8856_ofilm_front_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/ov8856_ofilm_front_mipi_raw_IdxMgr.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/ov8856_ofilm_front_mipi_raw_india_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/ov8856_ofilm_front_mipi_raw_india_tuning.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/ov8856_ofilm_front_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/ov8856_ofilm_front_mipi_raw_tuning.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib64/sensors.touch.detect.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.touch.detect.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib64/vendor.mediatek.hardware.apmonitor@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.apmonitor@2.0.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib64/vendor.mediatek.hardware.atci@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.atci@1.0.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/vendor.mediatek.hardware.bluetooth.audio@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.bluetooth.audio@2.1.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/vendor.mediatek.hardware.bluetooth.audio@2.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.bluetooth.audio@2.2.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/vendor.mediatek.hardware.camera.atms@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.camera.atms@1.0.so \
@@ -1741,13 +1299,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/vendor.mediatek.hardware.camera.security@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.camera.security@1.0.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/vendor.mediatek.hardware.clientapi@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.clientapi@1.0.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/vendor.mediatek.hardware.composer_ext@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.composer_ext@1.0.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib64/vendor.mediatek.hardware.dmc@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.dmc@1.0.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib64/vendor.mediatek.hardware.dmc@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.dmc@1.1.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib64/vendor.mediatek.hardware.dmc@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.dmc@1.2.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib64/vendor.mediatek.hardware.keymaster_attestation@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.keymaster_attestation@1.0.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib64/vendor.mediatek.hardware.keymaster_attestation@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.keymaster_attestation@1.1.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib64/vendor.mediatek.hardware.lbs@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.lbs@1.0.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib64/vendor.mediatek.hardware.mdmonitor@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.mdmonitor@1.0.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/vendor.mediatek.hardware.mmagent@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.mmagent@1.0.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/vendor.mediatek.hardware.mmagent@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.mmagent@1.1.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/vendor.mediatek.hardware.mms@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.mms@1.0.so \
@@ -1762,7 +1313,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/vendor.mediatek.hardware.netdagent@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.netdagent@1.0.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/vendor.mediatek.hardware.nvram@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.nvram@1.0.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/vendor.mediatek.hardware.nvram@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.nvram@1.1.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib64/vendor.mediatek.hardware.nwk_opt@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.nwk_opt@1.0.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/vendor.mediatek.hardware.power@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.power@1.1.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/vendor.mediatek.hardware.power@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.power@2.0.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/vendor.mediatek.hardware.pq@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.pq@2.0.so \
@@ -1780,8 +1330,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/vendor.mediatek.hardware.pq@2.8.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.pq@2.8.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/vendor.mediatek.hardware.pq@2.9.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.pq@2.9.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.videotelephony@1.0.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib64/vendor.microtrust.hardware.soter@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.microtrust.hardware.soter@1.0.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib64/wechat.beanpod.so:$(TARGET_COPY_OUT_VENDOR)/lib64/wechat.beanpod.so \
     vendor/xiaomi/camellia/proprietary/vendor/thh/ta/020f0000000000000000000000000000.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/020f0000000000000000000000000000.ta \
     vendor/xiaomi/camellia/proprietary/vendor/thh/ta/05120000000000000000000000000000.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/05120000000000000000000000000000.ta \
     vendor/xiaomi/camellia/proprietary/vendor/thh/ta/06090000000000000000000000000000.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/06090000000000000000000000000000.ta \
@@ -1809,30 +1357,22 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/camellia/proprietary/vendor/thh/ta/isee_model.json:$(TARGET_COPY_OUT_VENDOR)/thh/ta/isee_model.json
 
 PRODUCT_PACKAGES += \
-    libfmjni \
-    libwifi-hal-mtk \
     ImsService \
-    SoterService \
     HotwordEnrollmentOKGoogleRISCV \
     HotwordEnrollmentXGoogleRISCV \
-    mediatek-carrier-config-manager \
     mediatek-common \
     mediatek-framework \
     mediatek-ims-base \
     mediatek-ims-common \
     mediatek-ims-extension-plugin \
-    mediatek-services \
     mediatek-telecom-common \
     mediatek-telephony-base \
     mediatek-telephony-common \
     mediatek-wfo-legacy \
-    com.fingerprints.extension \
     com.android.hotwordenrollment.common.util \
     android.hardware.usb@1.2-service-mediatekv2 \
-    gnss-mediatek \
-    gnss@2.1-mtk-service \
-    lbs_hidl_service@1.0 \
+    gnss-mtk \
+    gnss@2.1-service \
     manifest_android.hardware.drm@1.4-service.widevine \
-    manifest_hwcomposer \
     manifest_media_c2_V1_1_default \
     memtrack-mediatek

@@ -5,39 +5,6 @@
 soong_namespace {
 }
 
-cc_prebuilt_library_shared {
-	name: "libfmjni",
-	owner: "xiaomi",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/system/lib64/libfmjni.so"],
-		},
-	},
-	compile_multilib: "64",
-	check_elf_files: false,
-	prefer: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libwifi-hal-mtk",
-	owner: "xiaomi",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libwifi-hal-mtk.so"],
-		},
-	},
-	compile_multilib: "64",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
 android_app_import {
 	name: "ImsService",
 	owner: "xiaomi",
@@ -47,17 +14,6 @@ android_app_import {
 		enabled: false,
 	},
 	privileged: true,
-}
-
-android_app_import {
-	name: "SoterService",
-	owner: "xiaomi",
-	apk: "proprietary/vendor/app/SoterService/SoterService.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	soc_specific: true,
 }
 
 android_app_import {
@@ -82,12 +38,6 @@ android_app_import {
 	},
 	privileged: true,
 	product_specific: true,
-}
-
-dex_import {
-	name: "mediatek-carrier-config-manager",
-	owner: "xiaomi",
-	jars: ["proprietary/system/framework/mediatek-carrier-config-manager.jar"],
 }
 
 dex_import {
@@ -121,12 +71,6 @@ dex_import {
 }
 
 dex_import {
-	name: "mediatek-services",
-	owner: "xiaomi",
-	jars: ["proprietary/system/framework/mediatek-services.jar"],
-}
-
-dex_import {
 	name: "mediatek-telecom-common",
 	owner: "xiaomi",
 	jars: ["proprietary/system/framework/mediatek-telecom-common.jar"],
@@ -151,13 +95,6 @@ dex_import {
 }
 
 dex_import {
-	name: "com.fingerprints.extension",
-	owner: "xiaomi",
-	jars: ["proprietary/vendor/framework/com.fingerprints.extension.jar"],
-	soc_specific: true,
-}
-
-dex_import {
 	name: "com.android.hotwordenrollment.common.util",
 	owner: "xiaomi",
 	jars: ["proprietary/system_ext/framework/com.android.hotwordenrollment.common.util.jar"],
@@ -174,27 +111,18 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "gnss-mediatek",
+	name: "gnss-mtk",
 	owner: "xiaomi",
-	src: "proprietary/vendor/etc/vintf/manifest/gnss-mediatek.xml",
+	src: "proprietary/vendor/etc/vintf/manifest/gnss-mtk.xml",
 	filename_from_src: true,
 	sub_dir: "vintf/manifest",
 	soc_specific: true,
 }
 
 prebuilt_etc_xml {
-	name: "gnss@2.1-mtk-service",
+	name: "gnss@2.1-service",
 	owner: "xiaomi",
-	src: "proprietary/vendor/etc/vintf/manifest/gnss@2.1-mtk-service.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
-}
-
-prebuilt_etc_xml {
-	name: "lbs_hidl_service@1.0",
-	owner: "xiaomi",
-	src: "proprietary/vendor/etc/vintf/manifest/lbs_hidl_service@1.0.xml",
+	src: "proprietary/vendor/etc/vintf/manifest/gnss@2.1-service.xml",
 	filename_from_src: true,
 	sub_dir: "vintf/manifest",
 	soc_specific: true,
@@ -204,15 +132,6 @@ prebuilt_etc_xml {
 	name: "manifest_android.hardware.drm@1.4-service.widevine",
 	owner: "xiaomi",
 	src: "proprietary/vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.4-service.widevine.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
-}
-
-prebuilt_etc_xml {
-	name: "manifest_hwcomposer",
-	owner: "xiaomi",
-	src: "proprietary/vendor/etc/vintf/manifest/manifest_hwcomposer.xml",
 	filename_from_src: true,
 	sub_dir: "vintf/manifest",
 	soc_specific: true,

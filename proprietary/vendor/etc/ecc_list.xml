@@ -377,21 +377,44 @@
 
     <EccEntry Ecc="999" Category="0" Condition="2" Plmn="852 FFF"/>
 
-    <EccEntry Ecc="110" Category="0" Condition="2" Plmn="510 FFF"/>
-    <EccEntry Ecc="115" Category="0" Condition="2" Plmn="510 FFF"/>
     <EccEntry Ecc="118" Category="0" Condition="1" Plmn="510 FFF"/>
-    <EccEntry Ecc="119" Category="0" Condition="2" Plmn="510 FFF"/>
-    <EccEntry Ecc="129" Category="0" Condition="2" Plmn="510 FFF"/>
     <EccEntry Ecc="113" Category="0" Condition="1" Plmn="510 FFF"/>
+    <EccEntry Ecc="112" Category="0" Condition="1" Plmn="510 10"/>
+    <EccEntry Ecc="113" Category="4" Condition="1" Plmn="510 10"/>
+    <EccEntry Ecc="118" Category="0" Condition="1" Plmn="510 10"/>
+    <EccEntry Ecc="110" Category="0" Condition="2" Plmn="510 10"/>
+    <EccEntry Ecc="115" Category="0" Condition="2" Plmn="510 10"/>
+    <EccEntry Ecc="129" Category="0" Condition="2" Plmn="510 10"/>
+    <EccEntry Ecc="119" Category="0" Condition="2" Plmn="510 10"/>
+    <EccEntry Ecc="110" Category="1" Condition="1" Plmn="510 09"/>
+    <EccEntry Ecc="112" Category="2" Condition="1" Plmn="510 09"/>
+    <EccEntry Ecc="113" Category="4" Condition="1" Plmn="510 09"/>
+    <EccEntry Ecc="115" Category="8" Condition="1" Plmn="510 09"/>
+    <EccEntry Ecc="118" Category="2" Condition="1" Plmn="510 09"/>
+    <EccEntry Ecc="129" Category="0" Condition="2" Plmn="510 09"/>
+    <EccEntry Ecc="119" Category="0" Condition="2" Plmn="510 09"/>
+    <EccEntry Ecc="110" Category="1" Condition="1" Plmn="510 28"/>
+    <EccEntry Ecc="112" Category="2" Condition="1" Plmn="510 28"/>
+    <EccEntry Ecc="113" Category="4" Condition="1" Plmn="510 28"/>
+    <EccEntry Ecc="115" Category="8" Condition="1" Plmn="510 28"/>
+    <EccEntry Ecc="118" Category="2" Condition="1" Plmn="510 28"/>
+    <EccEntry Ecc="129" Category="0" Condition="2" Plmn="510 28"/>
+    <EccEntry Ecc="119" Category="0" Condition="2" Plmn="510 28"/>
     <EccEntry Ecc="110" Category="1" Condition="1" Plmn="510 01"/>
-    <EccEntry Ecc="110" Category="0" Condition="1" Plmn="510 11"/>
+    <EccEntry Ecc="112" Category="2" Condition="1" Plmn="510 01"/>
+    <EccEntry Ecc="113" Category="0" Condition="1" Plmn="510 01"/>
+    <EccEntry Ecc="118" Category="0" Condition="1" Plmn="510 01"/>
+    <EccEntry Ecc="115" Category="0" Condition="2" Plmn="510 01"/>
     <EccEntry Ecc="123" Category="0" Condition="2" Plmn="510 01"/>
-    <EccEntry Ecc="129" Category="0" Condition="1" Plmn="510 01"/>
+    <EccEntry Ecc="119" Category="0" Condition="2" Plmn="510 01"/>
+    <EccEntry Ecc="110" Category="0" Condition="1" Plmn="510 11"/>
+    <EccEntry Ecc="112" Category="0" Condition="1" Plmn="510 11"/>
+    <EccEntry Ecc="113" Category="0" Condition="1" Plmn="510 11"/>
     <EccEntry Ecc="115" Category="0" Condition="1" Plmn="510 11"/>
-    <EccEntry Ecc="117" Category="0" Condition="1" Plmn="510 11"/>
-    <EccEntry Ecc="112" Category="0" Condition="1" Plmn="510 89"/>
-    <EccEntry Ecc="113" Category="0" Condition="1" Plmn="510 89"/>
-    <EccEntry Ecc="115" Category="0" Condition="1" Plmn="510 89"/>
+    <EccEntry Ecc="118" Category="0" Condition="1" Plmn="510 11"/>
+    <EccEntry Ecc="117" Category="0" Condition="2" Plmn="510 11"/>
+    <EccEntry Ecc="129" Category="0" Condition="2" Plmn="510 11"/>
+    <EccEntry Ecc="119" Category="0" Condition="2" Plmn="510 11"/>
 
     <EccEntry Ecc="999" Category="0" Condition="1" Plmn="502 FFF"/>
     <EccEntry Ecc="112" Category="0" Condition="1" Plmn="502 FFF"/>
