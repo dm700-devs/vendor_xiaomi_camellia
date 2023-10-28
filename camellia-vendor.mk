@@ -405,10 +405,15 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/camellia/proprietary/vendor/firmware/aw87559_pid_5a_voice_0.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw87559_pid_5a_voice_0.bin \
     vendor/xiaomi/camellia/proprietary/vendor/firmware/aw87xxx_vmax_0.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw87xxx_vmax_0.bin \
     vendor/xiaomi/camellia/proprietary/vendor/firmware/awinic_params.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/awinic_params.bin \
+    vendor/xiaomi/camellia/proprietary/vendor/firmware/fm_cust.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/fm_cust.cfg \
     vendor/xiaomi/camellia/proprietary/vendor/firmware/focaltech_mp_fw_tianma.ini:$(TARGET_COPY_OUT_VENDOR)/firmware/focaltech_mp_fw_tianma.ini \
     vendor/xiaomi/camellia/proprietary/vendor/firmware/focaltech_ts_fw_tianma.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/focaltech_ts_fw_tianma.bin \
     vendor/xiaomi/camellia/proprietary/vendor/firmware/fs1815.fsm:$(TARGET_COPY_OUT_VENDOR)/firmware/fs1815.fsm \
     vendor/xiaomi/camellia/proprietary/vendor/firmware/lib3a.ccu:$(TARGET_COPY_OUT_VENDOR)/firmware/lib3a.ccu \
+    vendor/xiaomi/camellia/proprietary/vendor/firmware/mt6631_fm_v1_coeff.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mt6631_fm_v1_coeff.bin \
+    vendor/xiaomi/camellia/proprietary/vendor/firmware/mt6631_fm_v1_patch.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mt6631_fm_v1_patch.bin \
+    vendor/xiaomi/camellia/proprietary/vendor/firmware/mt6635_fm_v1_coeff.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mt6635_fm_v1_coeff.bin \
+    vendor/xiaomi/camellia/proprietary/vendor/firmware/mt6635_fm_v1_patch.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mt6635_fm_v1_patch.bin \
     vendor/xiaomi/camellia/proprietary/vendor/firmware/nt36672c_tm_01_ts_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nt36672c_tm_01_ts_fw.bin \
     vendor/xiaomi/camellia/proprietary/vendor/firmware/nt36672c_tr_02_ts_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nt36672c_tr_02_ts_fw.bin \
     vendor/xiaomi/camellia/proprietary/vendor/firmware/nt36672d_tm_03_ts_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nt36672d_tm_03_ts_fw.bin \
@@ -1357,6 +1362,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/camellia/proprietary/vendor/thh/ta/isee_model.json:$(TARGET_COPY_OUT_VENDOR)/thh/ta/isee_model.json
 
 PRODUCT_PACKAGES += \
+    libfmjni \
     ImsService \
     HotwordEnrollmentOKGoogleRISCV \
     HotwordEnrollmentXGoogleRISCV \
