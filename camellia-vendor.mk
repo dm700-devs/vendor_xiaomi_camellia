@@ -444,7 +444,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/camellia/proprietary/vendor/lib/hw/vendor.mediatek.hardware.bluetooth.audio@2.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.bluetooth.audio@2.2-impl.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/hw/vendor.mediatek.hardware.pq@2.13-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.pq@2.13-impl.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/hw/vulkan.mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vulkan.mali.so \
-    vendor/xiaomi/camellia/proprietary/vendor/lib/libAVCSecureVencCA.so:$(TARGET_COPY_OUT_VENDOR)/lib/libAVCSecureVencCA.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/libDefaultFpsActor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libDefaultFpsActor.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/libFrameRecord.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFrameRecord.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib/libMtkOmxAdpcmDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxAdpcmDec.so \
