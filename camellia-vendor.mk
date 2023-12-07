@@ -40,7 +40,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/camellia/proprietary/vendor/bin/hw/android.hardware.media.c2@1.2-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.media.c2@1.2-mediatek \
     vendor/xiaomi/camellia/proprietary/vendor/bin/hw/android.hardware.memtrack-service.mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.memtrack-service.mediatek \
     vendor/xiaomi/camellia/proprietary/vendor/bin/hw/android.hardware.secure_element@1.2-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.secure_element@1.2-service-mediatek \
-    vendor/xiaomi/camellia/proprietary/vendor/bin/hw/android.hardware.usb@1.2-service-mediatekv2:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.usb@1.2-service-mediatekv2 \
     vendor/xiaomi/camellia/proprietary/vendor/bin/hw/camerahalserver:$(TARGET_COPY_OUT_VENDOR)/bin/hw/camerahalserver \
     vendor/xiaomi/camellia/proprietary/vendor/bin/hw/mtkfusionrild:$(TARGET_COPY_OUT_VENDOR)/bin/hw/mtkfusionrild \
     vendor/xiaomi/camellia/proprietary/vendor/bin/hw/tetheroffloadservice:$(TARGET_COPY_OUT_VENDOR)/bin/hw/tetheroffloadservice \
@@ -329,7 +328,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/camellia/proprietary/vendor/etc/init/android.hardware.keymaster@4.1-service.beanpod.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@4.1-service.beanpod.rc \
     vendor/xiaomi/camellia/proprietary/vendor/etc/init/android.hardware.media.c2@1.2-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.media.c2@1.2-mediatek.rc \
     vendor/xiaomi/camellia/proprietary/vendor/etc/init/android.hardware.secure_element@1.2-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.secure_element@1.2-service-mediatek.rc \
-    vendor/xiaomi/camellia/proprietary/vendor/etc/init/android.hardware.usb@1.2-service-mediatekv2.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.usb@1.2-service-mediatekv2.rc \
     vendor/xiaomi/camellia/proprietary/vendor/etc/init/camerahalserver.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/camerahalserver.rc \
     vendor/xiaomi/camellia/proprietary/vendor/etc/init/fuelgauged_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fuelgauged_init.rc \
     vendor/xiaomi/camellia/proprietary/vendor/etc/init/fuelgauged_nvram_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fuelgauged_nvram_init.rc \
@@ -1376,7 +1374,6 @@ PRODUCT_PACKAGES += \
     mediatek-telephony-common \
     mediatek-wfo-legacy \
     com.android.hotwordenrollment.common.util \
-    android.hardware.usb@1.2-service-mediatekv2 \
     gnss-mtk \
     gnss@2.1-service \
     manifest_android.hardware.drm@1.4-service.widevine \
